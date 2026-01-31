@@ -1,0 +1,1998 @@
+{
+  "processed_at": "2026-01-30T22:35:52.700114",
+  "total_articles": 69,
+  "articles": [
+    {
+      "title": "Introducing Daggr: Chain apps programmatically, inspect visually",
+      "link": "https://huggingface.co/blog/daggr",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-29T00:00:00+00:00",
+      "updated": "2026-01-29T00:00:00+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "introducing",
+        "daggr",
+        "chain"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.772323",
+      "short_summary": "...",
+      "funny_title": "🔮 Introducing Daggr: Chain apps programmatically, inspect visually 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.685768"
+    },
+    {
+      "title": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "link": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-27T15:01:45+00:00",
+      "updated": "2026-01-27T15:01:45+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "architectural",
+        "choices",
+        "china"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.772602",
+      "short_summary": "...",
+      "funny_title": "🔥 Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "开源"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.685840"
+    },
+    {
+      "title": "Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs",
+      "link": "https://huggingface.co/blog/tiiuae/emirati-benchmarks",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-27T10:26:42+00:00",
+      "updated": "2026-01-27T10:26:42+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "HuggingFace Blog",
+        "ai",
+        "alyah",
+        "toward",
+        "robust"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.772736",
+      "short_summary": "...",
+      "funny_title": "🎯 Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.685905"
+    },
+    {
+      "title": "Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective",
+      "link": "https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-27T01:53:15+00:00",
+      "updated": "2026-01-27T01:53:15+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "LLM",
+        "HuggingFace Blog",
+        "ai",
+        "AI",
+        "GPT",
+        "unlocking",
+        "agentic",
+        "rl"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.772874",
+      "short_summary": "...",
+      "funny_title": "🤖 Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.685943"
+    },
+    {
+      "title": "AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality",
+      "link": "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-21T06:25:31+00:00",
+      "updated": "2026-01-21T06:25:31+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "assetopsbench",
+        "bridging",
+        "gap"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.773003",
+      "short_summary": "...",
+      "funny_title": "🚀 AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.685982"
+    },
+    {
+      "title": "NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI",
+      "link": "https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-05T22:56:51+00:00",
+      "updated": "2026-01-05T22:56:51+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "nvidia",
+        "cosmos",
+        "reason"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.773635",
+      "short_summary": "...",
+      "funny_title": "🎯 NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI 来了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686014"
+    },
+    {
+      "title": "Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-h1-arabic",
+      "summary": "",
+      "content": "",
+      "published": "2026-01-05T09:16:51+00:00",
+      "updated": "2026-01-05T09:16:51+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "arabic",
+        "introducing",
+        "falcon"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.773760",
+      "short_summary": "...",
+      "funny_title": "🤖 Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686055"
+    },
+    {
+      "title": "AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/aprielguard",
+      "summary": "",
+      "content": "",
+      "published": "2025-12-23T14:07:35+00:00",
+      "updated": "2025-12-23T14:07:35+00:00",
+      "author": "",
+      "source": "HuggingFace Blog",
+      "category": "ai",
+      "tags": [
+        "人工智能",
+        "AI",
+        "HuggingFace Blog",
+        "ai",
+        "aprielguard",
+        "guardrail",
+        "safety"
+      ],
+      "fetched_at": "2026-01-30T22:35:18.774012",
+      "short_summary": "...",
+      "funny_title": "💡 AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686091"
+    },
+    {
+      "title": "Inside OpenAI’s in-house data agent",
+      "link": "https://openai.com/index/inside-our-in-house-data-agent",
+      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "content": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.",
+      "published": "2026-01-29T10:00:00+00:00",
+      "updated": "2026-01-29T10:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "and",
+        "openai",
+        "house"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.974413",
+      "short_summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes。",
+      "funny_title": "💡 Inside OpenAI’s in-house data agent 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686194"
+    },
+    {
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "link": "https://openai.com/index/taisei",
+      "summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
+      "content": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.",
+      "published": "2026-01-29T00:00:00+00:00",
+      "updated": "2026-01-29T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "taisei",
+        "corporation",
+        "talent"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.974610",
+      "short_summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business.。",
+      "funny_title": "🔮 Taisei Corporation shapes the next generation of talent with ChatGPT 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686281"
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "link": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "content": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, there are no changes at this time.",
+      "published": "2026-01-29T00:00:00+00:00",
+      "updated": "2026-01-29T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "gpt",
+        "mini",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.974775",
+      "short_summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mi。",
+      "funny_title": "⚡ Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686446"
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "summary": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "content": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.",
+      "published": "2026-01-28T01:00:00+00:00",
+      "updated": "2026-01-28T01:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "youth",
+        "wellbeing",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.974956",
+      "short_summary": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.。",
+      "funny_title": "⚡ EMEA Youth & Wellbeing Grant 速看！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.686551"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "content": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.",
+      "published": "2026-01-28T01:00:00+00:00",
+      "updated": "2026-01-28T01:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "and",
+        "ai",
+        "eu"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975132",
+      "short_summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe。",
+      "funny_title": "⚡ The next chapter for AI in the EU 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686644"
+    },
+    {
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "link": "https://openai.com/index/ai-agent-link-safety",
+      "summary": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
+      "content": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.",
+      "published": "2026-01-28T00:00:00+00:00",
+      "updated": "2026-01-28T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "data",
+        "ai",
+        "openai"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975264",
+      "short_summary": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.。",
+      "funny_title": "📢 Keeping your data safe when an AI agent clicks a link 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686731"
+    },
+    {
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "link": "https://openai.com/index/pvh-future-of-fashion",
+      "summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "content": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
+      "published": "2026-01-27T06:00:00+00:00",
+      "updated": "2026-01-27T06:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "and",
+        "pvh",
+        "fashion"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975491",
+      "short_summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consum。",
+      "funny_title": "🔥 PVH reimagines the future of fashion with OpenAI 揭秘！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686823"
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "link": "https://openai.com/index/trustbank",
+      "summary": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system helps donors navigate thousands of options and find gifts that match their preferences.",
+      "content": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system helps donors navigate thousands of options and find gifts that match their preferences.",
+      "published": "2026-01-27T00:00:00+00:00",
+      "updated": "2026-01-27T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "ai",
+        "personalized",
+        "recommendations"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975683",
+      "short_summary": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furus。",
+      "funny_title": "✨ Powering tax donations with AI powered personalized recommendations 揭秘！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.686955"
+    },
+    {
+      "title": "Introducing Prism",
+      "link": "https://openai.com/index/introducing-prism",
+      "summary": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "content": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+      "published": "2026-01-27T00:00:00+00:00",
+      "updated": "2026-01-27T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "GPT",
+        "ai",
+        "prism",
+        "free",
+        "latex"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975838",
+      "short_summary": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.。",
+      "funny_title": "📢 Introducing Prism 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.687033"
+    },
+    {
+      "title": "How Indeed uses AI to help evolve the job search",
+      "link": "https://openai.com/index/indeed-maggie-hulce",
+      "summary": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
+      "content": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.",
+      "published": "2026-01-26T00:00:00+00:00",
+      "updated": "2026-01-26T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "job",
+        "and",
+        "indeed"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.975978",
+      "short_summary": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.。",
+      "funny_title": "🎯 How Indeed uses AI to help evolve the job search 速看！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.687123"
+    },
+    {
+      "title": "Unrolling the Codex agent loop",
+      "link": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "summary": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "content": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.",
+      "published": "2026-01-23T12:00:00+00:00",
+      "updated": "2026-01-23T12:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "AI",
+        "人工智能",
+        "ai",
+        "codex",
+        "agent",
+        "loop"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.976117",
+      "short_summary": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API。",
+      "funny_title": "💡 Unrolling the Codex agent loop 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "💻 代码编辑器/编程概念图",
+      "processed_at": "2026-01-30T22:35:52.687205"
+    },
+    {
+      "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+      "link": "https://openai.com/index/scaling-postgresql",
+      "summary": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "content": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.",
+      "published": "2026-01-22T12:00:00+00:00",
+      "updated": "2026-01-22T12:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "postgresql",
+        "inside",
+        "look"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.976255",
+      "short_summary": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.。",
+      "funny_title": "✨ Scaling PostgreSQL to power 800 million ChatGPT users 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.687290"
+    },
+    {
+      "title": "Inside Praktika's conversational approach to language learning",
+      "link": "https://openai.com/index/praktika",
+      "summary": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
+      "content": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency",
+      "published": "2026-01-22T05:00:00+00:00",
+      "updated": "2026-01-22T05:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "gpt",
+        "and",
+        "praktika"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.976384",
+      "short_summary": "How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world langu。",
+      "funny_title": "💡 Inside Praktika's conversational approach to language learning 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.687394"
+    },
+    {
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "link": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "summary": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
+      "content": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.",
+      "published": "2026-01-22T00:00:00+00:00",
+      "updated": "2026-01-22T00:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "work",
+        "gpt",
+        "data"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.976517",
+      "short_summary": "A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at 。",
+      "funny_title": "🎯 Inside GPT-5 for Work: How Businesses Use GPT-5 来了！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.687493"
+    },
+    {
+      "title": "How Higgsfield turns simple ideas into cinematic social videos",
+      "link": "https://openai.com/index/higgsfield",
+      "summary": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
+      "content": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.",
+      "published": "2026-01-21T10:00:00+00:00",
+      "updated": "2026-01-21T10:00:00+00:00",
+      "author": "",
+      "source": "OpenAI Blog",
+      "category": "ai",
+      "tags": [
+        "OpenAI Blog",
+        "LLM",
+        "ai",
+        "AI",
+        "GPT",
+        "gpt",
+        "higgsfield",
+        "simple"
+      ],
+      "fetched_at": "2026-01-30T22:35:20.976647",
+      "short_summary": "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.。",
+      "funny_title": "⚡ How Higgsfield turns simple ideas into cinematic social videos 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.687582"
+    },
+    {
+      "title": "RedSage: A Cybersecurity Generalist LLM",
+      "link": "https://arxiv.org/abs/2601.22159v1",
+      "summary": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on th",
+      "content": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on this, we design an agentic augmentation pipeline that simulates expert workflows to generate 266K multi-turn cybersecurity samples for supervised fine-tuning. Combined with general open-source LLM data, these resources enable the training of RedSage, an open-source, locally deployable cybersecurity assistant with domain-aware pretraining and post-training. To rigorously evaluate the models, we introduce RedSage-Bench, a benchmark with 30K multiple-choice and 240 open-ended Q&A items covering cybersecurity knowledge, skills, and tool expertise. RedSage is further evaluated on established cybersecurity benchmarks (e.g., CTI-Bench, CyberMetric, SECURE) and general LLM benchmarks to assess broader generalization. At the 8B scale, RedSage achieves consistently better results, surpassing the baseline models by up to +5.59 points on cybersecurity benchmarks and +5.05 points on Open LLM Leaderboard tasks. These findings demonstrate that domain-aware agentic augmentation and pre/post-training can not only enhance cybersecurity-specific expertise but also help to improve general reasoning and instruction-following. All models, datasets, and code are publicly available.",
+      "published": "2026-01-29T18:59:57+00:00",
+      "updated": "2026-01-29T18:59:57+00:00",
+      "author": "Ernesto Damiani",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "and",
+        "cybersecurity",
+        "open"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.534336",
+      "short_summary": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on propr。",
+      "funny_title": "🔥 RedSage: A Cybersecurity Generalist LLM 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开源",
+        "开发工具",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.687974"
+    },
+    {
+      "title": "Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts",
+      "link": "https://arxiv.org/abs/2601.22156v1",
+      "summary": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but their adoption and studies are hindered by the prohibitive cost of large-scale pre-training from scratch. Some recent studies have shown that pre-trained softmax attention blocks can be converted into RNN blocks through parameter transfer and knowledge distillation. However, these transfer methods requ",
+      "content": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-throughput tradeoff for long-context modeling, but their adoption and studies are hindered by the prohibitive cost of large-scale pre-training from scratch. Some recent studies have shown that pre-trained softmax attention blocks can be converted into RNN blocks through parameter transfer and knowledge distillation. However, these transfer methods require substantial amounts of training data (more than 10B tokens), and the resulting hybrid models also exhibit poor long-context performance, which is the scenario where hybrid models enjoy significant inference speedups over Transformer-based models. In this paper, we present HALO (Hybrid Attention via Layer Optimization), a pipeline for distilling Transformer models into RNN-attention hybrid models. We then present HypeNet, a hybrid architecture with superior length generalization enabled by a novel position encoding scheme (named HyPE) and various architectural modifications. We convert the Qwen3 series into HypeNet using HALO, achieving performance comparable to the original Transformer models while enjoying superior long-context performance and efficiency. The conversion requires just 2.3B tokens, less than 0.01% of their pre-training data",
+      "published": "2026-01-29T18:59:53+00:00",
+      "updated": "2026-01-29T18:59:53+00:00",
+      "author": "Zhiyuan Liu",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "and",
+        "hybrid",
+        "attention"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.534559",
+      "short_summary": "Hybrid Transformer architectures, which combine softmax attention blocks and recurrent neural networks (RNNs), have shown a desirable performance-thro。",
+      "funny_title": "🎯 Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts 来了！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.688329"
+    },
+    {
+      "title": "Exploring Reasoning Reward Model for Agents",
+      "link": "https://arxiv.org/abs/2601.22154v1",
+      "summary": "Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most methods still relies on sparse outcome-based reward for training. Such feedback fails to differentiate intermediate reasoning quality, leading to suboptimal training results. In this paper, we introduce Agent Reasoning Reward Model (Agent-RRM), a multi-faceted reward model that produces structured feedback for agentic trajectories, including (1) an",
+      "content": "Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most methods still relies on sparse outcome-based reward for training. Such feedback fails to differentiate intermediate reasoning quality, leading to suboptimal training results. In this paper, we introduce Agent Reasoning Reward Model (Agent-RRM), a multi-faceted reward model that produces structured feedback for agentic trajectories, including (1) an explicit reasoning trace , (2) a focused critique that provides refinement guidance by highlighting reasoning flaws, and (3) an overall score that evaluates process performance. Leveraging these signals, we systematically investigate three integration strategies: Reagent-C (text-augmented refinement), Reagent-R (reward-augmented guidance), and Reagent-U (unified feedback integration). Extensive evaluations across 12 diverse benchmarks demonstrate that Reagent-U yields substantial performance leaps, achieving 43.7% on GAIA and 46.2% on WebWalkerQA, validating the effectiveness of our reasoning reward model and training schemes. Code, models, and datasets are all released to facilitate future research.",
+      "published": "2026-01-29T18:59:52+00:00",
+      "updated": "2026-01-29T18:59:52+00:00",
+      "author": "Xiangyu Yue",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "reasoning",
+        "reward",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.534757",
+      "short_summary": "Agentic Reinforcement Learning (Agentic RL) has achieved notable success in enabling agents to perform complex reasoning and tool use. However, most m。",
+      "funny_title": "💻 Exploring Reasoning Reward Model for Agents 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具",
+        "云服务",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.688636"
+    },
+    {
+      "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+      "link": "https://arxiv.org/abs/2601.22149v1",
+      "summary": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This",
+      "content": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towards general-purpose AI assistants. However, training these agents is severely hampered by the challenges of interacting with the live internet, which is inefficient, costly, and fraught with risks. Model-based reinforcement learning (MBRL) offers a promising solution by learning a world model of the environment to enable simulated interaction. This paper introduces DynaWeb, a novel MBRL framework that trains web agents through interacting with a web world model trained to predict naturalistic web page representations given agent actions. This model serves as a synthetic web environment where an agent policy can dream by generating vast quantities of rollout action trajectories for efficient online reinforcement learning. Beyond free policy rollouts, DynaWeb incorporates real expert trajectories from training data, which are randomly interleaved with on-policy rollouts during training to improve stability and sample efficiency. Experiments conducted on the challenging WebArena and WebVoyager benchmarks demonstrate that DynaWeb consistently and significantly improves the performance of state-of-the-art open-source web agent models. Our findings establish the viability of training web agents through imagination, offering a scalable and efficient way to scale up online agentic RL.",
+      "published": "2026-01-29T18:59:07+00:00",
+      "updated": "2026-01-29T18:59:07+00:00",
+      "author": "Lei Yu",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "web",
+        "learning",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.534958",
+      "short_summary": "The development of autonomous web agents, powered by Large Language Models (LLMs) and reinforcement learning (RL), represents a significant step towar。",
+      "funny_title": "⚡ DynaWeb: Model-Based Reinforcement Learning of Web Agents 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "开源",
+        "开发工具",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.688968"
+    },
+    {
+      "title": "Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data",
+      "link": "https://arxiv.org/abs/2601.22141v1",
+      "summary": "In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all inputs, ignoring the inherent heterogeneity of real-world data. In this work, we propose Routing the Lottery (RTL), an adaptive pruning framework that discovers multiple specialized subnetworks, called a",
+      "content": "In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all inputs, ignoring the inherent heterogeneity of real-world data. In this work, we propose Routing the Lottery (RTL), an adaptive pruning framework that discovers multiple specialized subnetworks, called adaptive tickets, each tailored to a class, semantic cluster, or environmental condition. Across diverse datasets and tasks, RTL consistently outperforms single- and multi-model baselines in balanced accuracy and recall, while using up to 10 times fewer parameters than independent models and exhibiting semantically aligned. Furthermore, we identify subnetwork collapse, a performance drop under aggressive pruning, and introduce a subnetwork similarity score that enables label-free diagnosis of oversparsification. Overall, our results recast pruning as a mechanism for aligning model structure with data heterogeneity, paving the way toward more modular and context-aware deep learning.",
+      "published": "2026-01-29T18:56:41+00:00",
+      "updated": "2026-01-29T18:56:41+00:00",
+      "author": "Michal Byra",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "pruning",
+        "and",
+        "lottery"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.535157",
+      "short_summary": "In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation 。",
+      "funny_title": "📢 Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.689268"
+    },
+    {
+      "title": "Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers",
+      "link": "https://arxiv.org/abs/2601.22139v1",
+      "summary": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm: performing extensive internal reasoning even when critical information is missing or ambiguous. We propose Proactive Interactive Reasoning (PIR), a new reasoning paradigm that transforms LLMs from passive solvers into proactive inquirers that interleave reasoning with clarification. Unlike existing",
+      "content": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally limited by a \\emph{blind self-thinking} paradigm: performing extensive internal reasoning even when critical information is missing or ambiguous. We propose Proactive Interactive Reasoning (PIR), a new reasoning paradigm that transforms LLMs from passive solvers into proactive inquirers that interleave reasoning with clarification. Unlike existing search- or tool-based frameworks that primarily address knowledge uncertainty by querying external environments, PIR targets premise- and intent-level uncertainty through direct interaction with the user. PIR is implemented via two core components: (1) an uncertainty-aware supervised fine-tuning procedure that equips models with interactive reasoning capability, and (2) a user-simulator-based policy optimization framework driven by a composite reward that aligns model behavior with user intent. Extensive experiments on mathematical reasoning, code generation, and document editing demonstrate that PIR consistently outperforms strong baselines, achieving up to 32.70\\% higher accuracy, 22.90\\% higher pass rate, and 41.36 BLEU improvement, while reducing nearly half of the reasoning computation and unnecessary interaction turns. Further reliability evaluations on factual knowledge, question answering, and missing-premise scenarios confirm the strong generalization and robustness of PIR. Model and code are publicly available at: \\href{https://github.com/SUAT-AIRI/Proactive-Interactive-R1}",
+      "published": "2026-01-29T18:56:12+00:00",
+      "updated": "2026-01-29T18:56:12+00:00",
+      "author": "Shujian Huang",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "reasoning",
+        "and",
+        "pir"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.535360",
+      "short_summary": "Reasoning-oriented Large Language Models (LLMs) have achieved remarkable progress with Chain-of-Thought (CoT) prompting, yet they remain fundamentally。",
+      "funny_title": "✨ Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.689647"
+    },
+    {
+      "title": "PRISM: Distribution-free Adaptive Computation of Matrix Functions for Accelerating Neural Network Training",
+      "link": "https://arxiv.org/abs/2601.22137v1",
+      "summary": "Matrix functions such as square root, inverse roots, and orthogonalization play a central role in preconditioned gradient methods for neural network training. This has motivated the development of iterative algorithms that avoid explicit eigendecompositions and rely primarily on matrix multiplications, making them well suited for modern GPU accelerators. We present PRISM (Polynomial-fitting and Randomized Iterative Sketching for Matrix functions computation), a general framework for accelerating",
+      "content": "Matrix functions such as square root, inverse roots, and orthogonalization play a central role in preconditioned gradient methods for neural network training. This has motivated the development of iterative algorithms that avoid explicit eigendecompositions and rely primarily on matrix multiplications, making them well suited for modern GPU accelerators. We present PRISM (Polynomial-fitting and Randomized Iterative Sketching for Matrix functions computation), a general framework for accelerating iterative algorithms for computing matrix functions. PRISM combines adaptive polynomial approximation with randomized sketching: at each iteration, it fits a polynomial surrogate to the current spectrum via a sketched least-squares problem, adapting to the instance at hand with minimal overhead. We apply PRISM to accelerate Newton-Schulz-like iterations for matrix square roots and orthogonalization, which are core primitives in machine learning. Unlike prior methods, PRISM requires no explicit spectral bounds or singular value estimates; and it adapts automatically to the evolving spectrum. Empirically, PRISM accelerates training when integrated into Shampoo and Muon optimizers.",
+      "published": "2026-01-29T18:55:46+00:00",
+      "updated": "2026-01-29T18:55:46+00:00",
+      "author": "Michael W. Mahoney",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "matrix",
+        "and",
+        "prism"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.535556",
+      "short_summary": "Matrix functions such as square root, inverse roots, and orthogonalization play a central role in preconditioned gradient methods for neural network t。",
+      "funny_title": "✨ PRISM: Distribution-free Adaptive Computation of Matrix Functions for Accelerating Neural Network Training 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.689973"
+    },
+    {
+      "title": "StepShield: When, Not Whether to Intervene on Rogue Agents",
+      "link": "https://arxiv.org/abs/2601.22136v1",
+      "summary": "Existing agent safety benchmarks report binary accuracy, conflating early intervention with post-mortem analysis. A detector that flags a violation at step 8 enables intervention; one that reports it at step 48 provides only forensic value. This distinction is critical, yet current benchmarks cannot measure it. We introduce StepShield, the first benchmark to evaluate when violations are detected, not just whether. StepShield contains 9,213 code agent trajectories, including 1,278 meticulously an",
+      "content": "Existing agent safety benchmarks report binary accuracy, conflating early intervention with post-mortem analysis. A detector that flags a violation at step 8 enables intervention; one that reports it at step 48 provides only forensic value. This distinction is critical, yet current benchmarks cannot measure it. We introduce StepShield, the first benchmark to evaluate when violations are detected, not just whether. StepShield contains 9,213 code agent trajectories, including 1,278 meticulously annotated training pairs and a 7,935-trajectory test set with a realistic 8.1% rogue rate. Rogue behaviors are grounded in real-world security incidents across six categories. We propose three novel temporal metrics: Early Intervention Rate (EIR), Intervention Gap, and Tokens Saved. Surprisingly, our evaluation reveals that an LLM-based judge achieves 59% EIR while a static analyzer achieves only 26%, a 2.3x performance gap that is entirely invisible to standard accuracy metrics. We further show that early detection has direct economic benefits: our cascaded HybridGuard detector reduces monitoring costs by 75% and projects to $108M in cumulative savings over five years at enterprise scale. By shifting the focus of evaluation from whether to when, StepShield provides a new foundation for building safer and more economically viable AI agents. The code and data are released under an Apache 2.0 license.",
+      "published": "2026-01-29T18:55:46+00:00",
+      "updated": "2026-01-29T18:55:46+00:00",
+      "author": "Sandeep Bandarupalli",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "stepshield",
+        "intervention",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.535756",
+      "short_summary": "Existing agent safety benchmarks report binary accuracy, conflating early intervention with post-mortem analysis. A detector that flags a violation at。",
+      "funny_title": "🔮 StepShield: When, Not Whether to Intervene on Rogue Agents 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "开源",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.690330"
+    },
+    {
+      "title": "World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems",
+      "link": "https://arxiv.org/abs/2601.22130v1",
+      "summary": "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across interconnected databases. Existing enterprise benchmarks evaluate surface-level agentic task completion similar to general consumer benchmarks, ignoring true challenges in enterprises, such as limited observability, large database state, and hidden workflows with cascading side effects. We introduce World o",
+      "content": "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden workflows create cascading effects across interconnected databases. Existing enterprise benchmarks evaluate surface-level agentic task completion similar to general consumer benchmarks, ignoring true challenges in enterprises, such as limited observability, large database state, and hidden workflows with cascading side effects. We introduce World of Workflows (WoW), a realistic ServiceNow-based environment incorporating 4,000+ business rules and 55 active workflows embedded in the system, alongside WoW-bench, a benchmark of 234 tasks evaluating constrained agentic task completion and enterprise dynamics modeling capabilities. We reveal two major takeaways: (1) Frontier LLMs suffer from dynamics blindness, consistently failing to predict the invisible, cascading side effects of their actions, which leads to silent constraint violations, and (2) reliability in opaque systems requires grounded world modeling, where agents must mentally simulate hidden state transitions to bridge the observability gap when high-fidelity feedback is unavailable. For reliable and useful enterprise agents, WoW motivates a new paradigm to explicitly learn system dynamics. We release our GitHub for setting up and evaluating WoW.",
+      "published": "2026-01-29T18:51:54+00:00",
+      "updated": "2026-01-29T18:51:54+00:00",
+      "author": "Sumit Pasupalak",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "workflows",
+        "enterprise",
+        "and"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.535957",
+      "short_summary": "Frontier large language models (LLMs) excel as autonomous agents in many domains, yet they remain untested in complex enterprise systems where hidden 。",
+      "funny_title": "🎯 World of Workflows: a Benchmark for Bringing World Models to Enterprise Systems 来了！",
+      "topics": [
+        "AI/机器学习",
+        "开源",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.690663"
+    },
+    {
+      "title": "SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents",
+      "link": "https://arxiv.org/abs/2601.22129v1",
+      "summary": "Test-time scaling has been widely adopted to enhance the capabilities of Large Language Model (LLM) agents in software engineering (SWE) tasks. However, the standard approach of repeatedly sampling trajectories from scratch is computationally expensive. While recent methods have attempted to mitigate costs using specialized value agents, they can suffer from model miscalibration and fail to generalize to modern agents that synthesize custom bash scripts as tools. In this paper, we introduce SWE-",
+      "content": "Test-time scaling has been widely adopted to enhance the capabilities of Large Language Model (LLM) agents in software engineering (SWE) tasks. However, the standard approach of repeatedly sampling trajectories from scratch is computationally expensive. While recent methods have attempted to mitigate costs using specialized value agents, they can suffer from model miscalibration and fail to generalize to modern agents that synthesize custom bash scripts as tools. In this paper, we introduce SWE-Replay, the first efficient and generalizable test-time scaling technique for modern agents without reliance on potentially noisy value estimates. SWE-Replay optimizes the scaling process by recycling trajectories from prior trials, dynamically choosing to either explore from scratch or exploit archived experience by branching at critical intermediate steps. This selection of intermediate steps is driven by the potential and reasoning significance of repository exploration, rather than external LLM-based quality estimates. Our evaluation shows that, on SWE-Bench Verified, SWE-Replay consistently outperforms naive scaling, reducing costs by up to 17.4% while maintaining or even improving performance by up to 3.8%. Further evaluation on SWE-Bench Pro and Multilingual validates the generalizability of SWE-Replay, establishing it as a robust foundation for efficient test-time scaling of software engineering agents.",
+      "published": "2026-01-29T18:50:29+00:00",
+      "updated": "2026-01-29T18:50:29+00:00",
+      "author": "Lingming Zhang",
+      "source": "ArXiv AI",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "人工智能",
+        "ArXiv AI",
+        "ai",
+        "swe",
+        "agents",
+        "scaling"
+      ],
+      "fetched_at": "2026-01-30T22:35:23.536253",
+      "short_summary": "Test-time scaling has been widely adopted to enhance the capabilities of Large Language Model (LLM) agents in software engineering (SWE) tasks. Howeve。",
+      "funny_title": "⚡ SWE-Replay: Efficient Test-Time Scaling for Software Engineering Agents 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.691021"
+    },
+    {
+      "title": "阿里系前高管出任机器人租赁平台“擎天租”总裁、首席战略官，将建设全国合伙人网络丨智能涌现独家",
+      "link": "https://36kr.com/p/3661687880147849?f=rss",
+      "summary": "<p><strong>文｜富充</strong></p> <p><strong>编辑｜苏建勋</strong></p> <p>具身智能产业的热度蔓延至机器人租赁市场，让互联网老兵们也“坐不住”了。</p> <p>《智能涌现》独家获悉，阿里“中供铁军”首任校长、阿里B2B销售培训体系参与建立者李立恒，与另一位阿里系“三板斧”负责管理培训业务的王明峰（天相）将入职机器人租赁平台擎天租，分别出任总裁、首席战略官。</p> <p>擎天租平台发布于2025年12月，并于2026年1月15日披露种子轮融资。该轮次由高瓴创投领投，复星创富等机构跟投。爱企查数据显示，智元机器人持有擎天租55%的股权，飞阔科技持有15%股权。飞阔科技成立于2024 年，聚焦机器人在文旅商演、商业导览等实际场景中的落地部署与运营。</p> <p>作为租赁平台，擎天租提供不同品牌、型号的机器人出租，可选品牌已包括加速进化、宇树、智元、众擎、灵初智能、逐际动力等。用户可以根据需求选择年会、网红直播、开业等不同场景，各场景对应不同型号与价格的机器人。目前，机器人的交付、回收与维护由各地入驻的租赁商完成。</",
+      "content": "<p><strong>文｜富充</strong></p> <p><strong>编辑｜苏建勋</strong></p> <p>具身智能产业的热度蔓延至机器人租赁市场，让互联网老兵们也“坐不住”了。</p> <p>《智能涌现》独家获悉，阿里“中供铁军”首任校长、阿里B2B销售培训体系参与建立者李立恒，与另一位阿里系“三板斧”负责管理培训业务的王明峰（天相）将入职机器人租赁平台擎天租，分别出任总裁、首席战略官。</p> <p>擎天租平台发布于2025年12月，并于2026年1月15日披露种子轮融资。该轮次由高瓴创投领投，复星创富等机构跟投。爱企查数据显示，智元机器人持有擎天租55%的股权，飞阔科技持有15%股权。飞阔科技成立于2024 年，聚焦机器人在文旅商演、商业导览等实际场景中的落地部署与运营。</p> <p>作为租赁平台，擎天租提供不同品牌、型号的机器人出租，可选品牌已包括加速进化、宇树、智元、众擎、灵初智能、逐际动力等。用户可以根据需求选择年会、网红直播、开业等不同场景，各场景对应不同型号与价格的机器人。目前，机器人的交付、回收与维护由各地入驻的租赁商完成。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260130/v2_c89c83fee9e74b13ba29ad9ed3a64055@6227116_oswg90278oswg678oswg1236_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">△擎天租可以选择不同品牌和形态的机器人，图片：产品截图</p> <p>平台数据显示，上线三周后，擎天租注册用户数已突破20万，日均租赁订单稳定在200单以上。</p> <p>但“数据好看”和“生意成立”之间，往往隔着一整条交付链路：</p> <p>订单是否来自真实复购而非补贴刺激？</p> <p>机器人在异地交付、现场运维、损耗折旧、保险与责任划分如何标准化？</p> <p>服务商分散在全国，平台能否用足够强的规则与SOP，把体验拉齐？</p> <p>这些问题决定了它更像一门运营生意，而不只是“上架一个小程序”。</p> <p>相关人士透露，擎天租或将在近期开启“城市合伙人计划”，在全国范围内招募租赁商，建立渠道。</p> <p>这或许也是擎天租此时引入擅长ToB组织培训、销售体系搭建的人选，更像是为“把全国网络跑起来”做准备。</p> <p>在公开信息中，李立恒被描述为阿里B2B销售“中供铁军”早期成员，曾参与阿里巴巴中国供应商业务的市场开拓，并在后期负责阿里B2B培训体系搭建与人才培养，背景符合 “怎么把全国服务网络跑起来”的能力画像。</p> <p>擎天租现有核心团队来自各个行业，包括机器人硬件、互联网平台与生活服务等。</p> <p>其中，智元合伙人、联席总裁姜青松为擎天租董事长；飞阔科技创始人李一言担任CEO；前饿了么副总裁陈艳霞出任COO；喵掌柜创始人李可为担任CMO。此次新加入的两位高管，对渠道规划与全国地面网络拓展形成补充。</p>",
+      "published": "2026-01-30T17:11:57+08:00",
+      "updated": "2026-01-30T17:11:57+08:00",
+      "author": "",
+      "source": "36氪",
+      "category": "tech",
+      "tags": [
+        "tech",
+        "36氪",
+        "首席战略官",
+        "中供铁军",
+        "富充"
+      ],
+      "fetched_at": "2026-01-30T22:35:25.083974",
+      "short_summary": "文｜富充 编辑｜苏建勋 具身智能产业的热度蔓延至机器人租赁市场，让互联网老兵们也“坐不住”了。 《智能涌现》独家获悉，阿里“中供铁军”首任校长、阿里B2B销售培训体系参与建立者李立恒，与另一位阿里系“三板斧”负责管理培训业务的王明峰（天相）将入职机器人租赁平台擎天租，分别出任总裁、首席战略官。",
+      "funny_title": "💡 阿里系前高管出任机器人租赁平台“擎天租”总裁、首席战略官，将建设全国合伙人网络丨智能涌现独家 揭秘！",
+      "topics": [
+        "科技创投"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.691439"
+    },
+    {
+      "title": "一家AI玩具公司获数千万元融资，核心产品销量翻五倍｜硬氪首发",
+      "link": "https://36kr.com/p/3654915542130816?f=rss",
+      "summary": "<p>作者｜黄楠</p> <p>编辑｜袁斯来</p> <p>硬氪获悉，AI玩具厂商上海喜梨信息科技有限公司（以下简称“FoloToy”）近日完成数千万元新一轮融资。指数资本担任公司独家财务顾问。我们总结了本轮融资信息和该公司几大亮点：</p> <h2><strong>融资金额及投资机构</strong></h2> <p>融资轮次：Pre-A轮/ Pre-A+轮</p> <p>融资规模：数千万元</p> <p>投资方：深创投、南山战新投、老股东火火兔</p> <p>资金用途：将重点用于加速技术研发与产品端持续迭代，并保障量产落地和规模化市场交付</p> <h2><strong>公司基本信息</strong></h2> <p>成立时间：2023年正式运营</p> <p>注册地址：上海市徐汇区</p> <p>企业定位：FoloToy是一家专注于全球化AI陪伴玩具的创新企业，通过将前沿AI技术转化为低成本、高适配的交互模组与终端产品，致力于为全年龄段用户提供的情感交互解决方案。</p> <p>技术亮点：FoloToy是业内首个支持Self-Hos",
+      "content": "<p>作者｜黄楠</p> <p>编辑｜袁斯来</p> <p>硬氪获悉，AI玩具厂商上海喜梨信息科技有限公司（以下简称“FoloToy”）近日完成数千万元新一轮融资。指数资本担任公司独家财务顾问。我们总结了本轮融资信息和该公司几大亮点：</p> <h2><strong>融资金额及投资机构</strong></h2> <p>融资轮次：Pre-A轮/ Pre-A+轮</p> <p>融资规模：数千万元</p> <p>投资方：深创投、南山战新投、老股东火火兔</p> <p>资金用途：将重点用于加速技术研发与产品端持续迭代，并保障量产落地和规模化市场交付</p> <h2><strong>公司基本信息</strong></h2> <p>成立时间：2023年正式运营</p> <p>注册地址：上海市徐汇区</p> <p>企业定位：FoloToy是一家专注于全球化AI陪伴玩具的创新企业，通过将前沿AI技术转化为低成本、高适配的交互模组与终端产品，致力于为全年龄段用户提供的情感交互解决方案。</p> <p>技术亮点：FoloToy是业内首个支持Self-Hosting（自托管）模式的AI玩具品牌，其自主研发的 “MagicBox”系统，可将用户对话模型、数据存储部署在本地终端上，在提供个性化AI交互服务的同时，实现数据隐私与安全管控，满足家庭、教育机构及对数据敏感用户的需求。</p> <p>具体到算法层，研发团队搭建了一个灵活的计算架构，支持云端、端侧及私有化混合部署，可兼容适配国内外主流大模型，并通过算法优化将响应时间压缩至1秒内，保障了交互的实时流畅。同时，系统具有深度的个性化与记忆能力，通过家长授权的云端存储，系统会记录下孩子的兴趣偏好如喜欢的故事类型、过敏食物、学习进度等，在后续对话中，产品能通过持续学习用户偏好，并基于自适应算法调整对话策略、主动发起相关话题。随用户年龄增长调整语言风格与知识深度，实现 “越用越懂” 的陪伴体验。</p> <p>在多模态方面，它还融合了声、形、动等交互能力，部分产品具备情绪识别与拟人化动作反馈能力，通过语音语调判断孩子是否开心、难过等情绪，主动调整回应方式，增强情感共鸣。此外，为了适配全球化家庭和更多用户偏好，MagicBox也支持超过10种外语及多种中文方言的对话。</p> <h2><strong>市场规模</strong></h2> <p>据Market Research Future相关报告显示，2024年AI玩具全球市场规模已达到110亿美元，主要增长来自中国、美国、欧洲三大核心市场，其中中国贡献占比超20%；到2030年，其市场规模预计将达580亿美元，复合增长率约32.7%。</p> <p>随着10后、20后等“AI原住民”对智能交互需求的天然增长，叠加年轻父母对“高质量陪伴”与“科学启蒙”的双重诉求日益强烈，国内AI陪伴玩具市场正迎来结构性机遇。据东北证券研报预测，该市场渗透率将从2025年的约20%快速提升，至2030年有望达到47%，对应国内市场规模预计突破850亿元。</p> <h2>团队背景</h2> <p>创始人兼CEO王乐毕业于天津大学计算机系，曾任职于硅谷智能硬件公司，在机器人和智能硬件领域拥有深厚的技术研发能力与产品化经验。联合创始人郭兴华曾于全球工业机器人头部企业担任高级工程师，在工业机器人核心技术领域有多年的硬件设计与工程落地能力。</p> <h2><strong>业务进度</strong></h2> <p>FoloToy已构建起覆盖“个人-家庭-企业”全场景的产品矩阵，2025年产品销量较上一年翻五倍。</p> <p>在C端消费市场，围绕不同用户的多年龄段需求，提出了对应的价格体系。其产品线包括经典陪伴系列如向日葵AI玩偶、AI熊猫“萌萌”，以258-398元的价格带提供基础对话与多语种启蒙功能；成长教育系列如AI小熊“乐乐”，定价398-598元，融合学科轻辅导与习惯养成，此外还有面向文旅场景打造的AI猫馆长等产品。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260126/v2_aa817687e7fb479ead6eefada9b9cd22@6022551_oswg764183oswg1856oswg1102_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">“个人-家庭-企业”全场景的产品矩阵（图源/企业）</p> <p>在B端与生态",
+      "published": "2026-01-30T09:30:00+08:00",
+      "updated": "2026-01-30T09:30:00+08:00",
+      "author": "",
+      "source": "36氪",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "人工智能",
+        "36氪",
+        "pre",
+        "企业",
+        "作者"
+      ],
+      "fetched_at": "2026-01-30T22:35:25.084246",
+      "short_summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI玩具厂商上海喜梨信息科技有限公司（以下简称“FoloToy”）近日完成数千万元新一轮融资。指数资本担任公司独家财务顾问。",
+      "funny_title": "🚀 一家AI玩具公司获数千万元融资，核心产品销量翻五倍｜硬氪首发 速看！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.691925"
+    },
+    {
+      "title": "8点1氪丨国铁回应“抢票神器诱导加价”：12306是唯一官方售票渠道；iPhone 16成去年全球最畅销智能手机；UC浏览器开发商被罚没126万元",
+      "link": "https://36kr.com/p/3661162161234566?f=rss",
+      "summary": "<h2>今日热点导览</h2> <p>麦趣尔，被申请破产清算</p> <p>银河系新发现一颗“潜在宜居”候选行星</p> <p>白银基金，1月30日全天停牌</p> <p>2026年春运全社会跨区域人员流动量预计将达95亿人次</p> <p>好想来回应消费者质疑“称不准” ：新员工操作失误</p> <h2>TOP3大新闻</h2> <p><strong>国铁集团回应“三方平台加价抢票”</strong></p> <p>1月29日，国铁集团客运部主任朱文忠在国新办新闻发布会上的公开声明：“一些第三方平台以各种‘抢票神器’名目，诱导旅客加价抢票。铁路12306客户端是中国铁路唯一官方火车票网络售票渠道，没有与任何第三方平台合作。”他同时强调，针对第三方平台高频访问对铁路12306系统安全稳定运行构成的严重冲击，将进一步优化风控系统实行有效识别。</p> <p>朱文忠直言，“买火车票历来是广大旅客关注的焦点。我们重点抓好四个方面售票组织工作”。一是关注学生、务工人员及老年人等重点群体的购票需求；二是首次推出互联网误购限时免费退票的新举措；三是持续优化和改进",
+      "content": "<h2>今日热点导览</h2> <p>麦趣尔，被申请破产清算</p> <p>银河系新发现一颗“潜在宜居”候选行星</p> <p>白银基金，1月30日全天停牌</p> <p>2026年春运全社会跨区域人员流动量预计将达95亿人次</p> <p>好想来回应消费者质疑“称不准” ：新员工操作失误</p> <h2>TOP3大新闻</h2> <p><strong>国铁集团回应“三方平台加价抢票”</strong></p> <p>1月29日，国铁集团客运部主任朱文忠在国新办新闻发布会上的公开声明：“一些第三方平台以各种‘抢票神器’名目，诱导旅客加价抢票。铁路12306客户端是中国铁路唯一官方火车票网络售票渠道，没有与任何第三方平台合作。”他同时强调，针对第三方平台高频访问对铁路12306系统安全稳定运行构成的严重冲击，将进一步优化风控系统实行有效识别。</p> <p>朱文忠直言，“买火车票历来是广大旅客关注的焦点。我们重点抓好四个方面售票组织工作”。一是关注学生、务工人员及老年人等重点群体的购票需求；二是首次推出互联网误购限时免费退票的新举措；三是持续优化和改进售票策略；四是确保12306系统平稳运行。（封面新闻）</p> <p><strong>iPhone 16成去年全球最畅销智能手机</strong></p> <p>1月28日，市场调查机构Counter Point Research发布博文，公布了2025年全球最畅销智能手机榜单，苹果iPhone16荣登榜首。苹果与三星连续第四年垄断了全球销量前十的榜单，在2025年榜单中，苹果占据7个席位，三星占据3个席位。这十款热门机型合计贡献了2025年全球智能手机总销量的19%，表明头部品牌在市场中的统治力依旧稳固。</p> <p>分析师Harshit Rastogi指出，主要得益于美国、中国和西欧市场的强劲需求，iPhone17系列在上市后的首个完整季度中，销量较前代产品增长了11%。特别是iPhone 17标准版，因配备了高刷新率屏幕、更大的RAM（运行内存）和起步存储空间，缩小了与Pro系列的差距，成为年度表现最突出的机型。（IT之家）</p> <p><strong>UC浏览器开发商被罚没126万元</strong></p> <p>1月29日，界面新闻获悉，近日，UC浏览器关联公司广州市动景计算机科技有限公司被东莞市文化广电旅游体育局没收违法所得21万余元，并处罚款105万余元，合计罚没126万元。处罚事由显示，该公司未经著作权人许可，通过信息网络向公众传播其作品。UC浏览器及其关联公司曾多次受到处罚。2021年，央视3·15晚会还曾曝光UC浏览器涉嫌发布虚假违法医疗广告。（界面新闻）</p> <h2>大公司/大事件</h2> <p><strong>苹果第一财季营收创纪录达1438亿美元，活跃设备量超25亿台</strong></p> <p>当地时间1月29日，苹果公司公布了截至2025年12月27日的2026财年第一季度财务业绩。公司季度营收达1438亿美元，同比增长16%；摊薄后每股收益为2.84美元，同比增长19%。董事会宣布向普通股股东派发每股0.26美元的现金股息。苹果CEO蒂姆·库克表示，iPhone因空前需求创下历史最佳季度表现，全球各地区销量均破纪录；服务业务营收同步增长14%，刷新历史纪录。目前苹果活跃设备装机量已突破25亿台。（界面新闻）</p> <p><strong>2026年春运全社会跨区域人员流动量预计将达95亿人次，创历史新高</strong></p> <p>1月29日，国务院新闻办公室今天上午举行新闻发布会，有关负责人介绍2026年春运形势和工作安排。 &nbsp;发布会上介绍，2026年春运将从2月2日开始，到3月13日结束，为期40天。综合研判，今年春运全社会跨区域人员流动量将达95亿人次，预计创历史新高。其中自驾出行将继续成为主体，占比达八成左右；铁路、民航客运量预计分别将达到5.4亿人次和9500万人次，总体规模和单日峰值均有望超过历史同期峰值。（新华社）</p> <p><strong>麦趣尔，被申请破产清算</strong></p> <p>因欠付595万元货款，麦趣尔被债权人申请破产清算。1月29日，新疆乳制品上市公司麦趣尔集团股份有限公司（麦趣尔，002719）发布关于公司被债权人申请破产清算的提示性公告。公告称，麦趣尔于近期知悉债权人广州市铭慧机械股份有限公司（以下简称“铭慧机械”）向昌吉回族自治州中级人民法院（以下简称“昌吉州中院”）申请对公司进行破产清算。2022年，因纯牛奶检出丙二醇问题，麦趣尔被市场监管部门立案调查，责令停止生产并下架、封存产品。同年被",
+      "published": "2026-01-30T08:10:16+08:00",
+      "updated": "2026-01-30T08:10:16+08:00",
+      "author": "",
+      "source": "36氪",
+      "category": "tech",
+      "tags": [
+        "tech",
+        "36氪",
+        "1月29日",
+        "麦趣尔",
+        "被申请破产清算"
+      ],
+      "fetched_at": "2026-01-30T22:35:25.084378",
+      "short_summary": "今日热点导览 麦趣尔，被申请破产清算 银河系新发现一颗“潜在宜居”候选行星 白银基金，1月30日全天停牌 2026年春运全社会跨区域人员流动量预计将达95亿人次 好想来回应消费者质疑“称不准” ：新员工操作失误 TOP3大新闻 国铁集团回应“三方平台加价抢票” 1月29日，国铁集团客运部主任朱文忠在。",
+      "funny_title": "📢 8点1氪丨国铁回应“抢票神器诱导加价”：12306是唯一官方售票渠道；iPhone 16成去年全球最畅销智能手机；UC浏览器开发商被罚没126万元 更新啦！",
+      "topics": [
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.692490"
+    },
+    {
+      "title": "36氪研究院 | 2026年具身智能产业发展研究报告",
+      "link": "https://36kr.com/p/3660312420180864?f=rss",
+      "summary": "<p>当前，在政策引领、技术突破与市场需求的共振驱动下，中国具身智能产业正迈入快速发展的新阶段。在此背景下，资本市场布局也日益活跃。公开资料数据显示，2025年前11个月具身智能产业融资额达到334.73亿元，是2024年同期的4倍；截至2025年12月21日，全年融资事件超305起，总额超过380亿元，参与的投资机构数量超过600家。资本的密集涌入，充分印证了产业发展的潜力与市场信心。这种信心，根植于社会经济发展中持续涌现的明确而迫切的替代需求。随着人口老龄化加剧与劳动力结构性短缺等问题持续凸显，社会对能够替代人工、承担高风险任务并提升产线效率的智能化解决方案需求日益迫切。传统自动化设备受限于固定场景与预设程序，难以适应柔性制造、人机协作等动态复杂环境，产业升级面临核心瓶颈。为突破这一局限，以人形机器人为代表的具身智能正在加速演进，逐步形成具备高阶认知能力的“感知-认知-决策-执行”完整技术闭环，并逐步走向规模化量产，以更好地适应多样化场景需求。由此，具身智能产业的发展主线已从技术攻关延伸至生态构建与商业闭环，标志着产业正式进入价值兑现的关键阶段。</p> <h2><strong",
+      "content": "<p>当前，在政策引领、技术突破与市场需求的共振驱动下，中国具身智能产业正迈入快速发展的新阶段。在此背景下，资本市场布局也日益活跃。公开资料数据显示，2025年前11个月具身智能产业融资额达到334.73亿元，是2024年同期的4倍；截至2025年12月21日，全年融资事件超305起，总额超过380亿元，参与的投资机构数量超过600家。资本的密集涌入，充分印证了产业发展的潜力与市场信心。这种信心，根植于社会经济发展中持续涌现的明确而迫切的替代需求。随着人口老龄化加剧与劳动力结构性短缺等问题持续凸显，社会对能够替代人工、承担高风险任务并提升产线效率的智能化解决方案需求日益迫切。传统自动化设备受限于固定场景与预设程序，难以适应柔性制造、人机协作等动态复杂环境，产业升级面临核心瓶颈。为突破这一局限，以人形机器人为代表的具身智能正在加速演进，逐步形成具备高阶认知能力的“感知-认知-决策-执行”完整技术闭环，并逐步走向规模化量产，以更好地适应多样化场景需求。由此，具身智能产业的发展主线已从技术攻关延伸至生态构建与商业闭环，标志着产业正式进入价值兑现的关键阶段。</p> <h2><strong>中国具身智能产业已凭借综合优势跻身全球第一梯队</strong></h2> <p>从技术成熟度、产业链完备度与市场拓展速度来看，中国具身智能产业已处于全球第一梯队。在技术方面，以人形机器人为例，国内领军企业已完成从原型开发到规模化量产的工程验证。在产业链配套方面，中国正在形成覆盖关键零部件的自主可控能力，并具备明显成本优势和本地配套能力。中国关键零部件（如手部、腿部执行器）的供应商数量远多于美国，供应链优势使得整机成本可控制在海外同类产品的约50%。同时，国产大模型的自主迭代进一步强化了技术独立性。这些坚实支撑使得产业展现出高度的成长弹性，推动中国市场成为全球增长最快的具身智能市场之一。根据36氪研究院测算，中国具身智能市场规模已从2018年的2,133亿元迅速增长至2025年的9,150亿元，并有望在2026年突破万亿元关口。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_a3633811ce7a4922bb0a4a34aeae1623@12547972_oswg47197oswg1019oswg548_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p> <h2><strong>人形机器人是具身智能的主要载体，正迈入规模化放量和商业落地的关键阶段</strong></h2> <p>作为具身智能的主要载体之一，人形机器人产业将在2026年迈入规模化放量的关键阶段。产品价格持续下探，十万台级别的量产规模可期。与此同时，商业化落地节奏也在日趋加快，工业领域成为商业化扩张的关键一步。除了硬件成本的持续下行，人形机器人发展的核心突破口更在于机器人大脑的演进，特别是李飞飞教授所强调的“世界模型”技术能否取得关键突破。未来，人形机器人需借助世界模型来突破空间智能瓶颈，以实现更高维度的环境理解与自主决策能力。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_8803b577b97f47a8b594365de87b95c9@12547972_oswg57370oswg1083oswg432_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p> <h2><strong>具身智能应用持续向工业领域、服务领域、特种领域、交通出行领域等下游场景渗透</strong></h2> <p>在工业领域，其应用核心已从传统自动化转向支持柔性制造与自主决策，通过融合高精度感知与深度学习技术，有效适应小批量、多品种的复杂任务，并在汽车制造、电子电气等场景加速落地。在服务领域，应用场景覆盖商业、家庭、公共与情感陪伴等，发展呈现场景精准细分、交互体验拟人化以及产品形态轻量化与创新化三大趋势。在特种领域，其应用聚焦于极端环境下的任务闭环作业，适配能力持续增强，已在灾害救援、能源巡检、高危维护等场景实现关键突破。在交通出行领域，发展重心正从单一载具自动化迈向系统级协同与立体化生态构建。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129",
+      "published": "2026-01-30T07:30:00+08:00",
+      "updated": "2026-01-30T07:30:00+08:00",
+      "author": "",
+      "source": "36氪",
+      "category": "tech",
+      "tags": [
+        "tech",
+        "36氪",
+        "当前",
+        "在政策引领",
+        "技术突破与市场需求的共振驱动下"
+      ],
+      "fetched_at": "2026-01-30T22:35:25.084512",
+      "short_summary": "当前，在政策引领、技术突破与市场需求的共振驱动下，中国具身智能产业正迈入快速发展的新阶段。在此背景下，资本市场布局也日益活跃。",
+      "funny_title": "🔥 36氪研究院 | 2026年具身智能产业发展研究报告 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.692918"
+    },
+    {
+      "title": "能录音的AI戒指，是个伪需求吗？|一个95后的硬件生死局",
+      "link": "https://36kr.com/p/3660353540236168?f=rss",
+      "summary": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_b5583800a2944782a17c60bec9cde483@6314151_oswg616982oswg900oswg1030_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">&nbsp;</p> <p><strong>“多模态的AI戒指才是终局。”</strong></p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_5323bae536254653b47209abf0a958b2@6314151_oswg327oswg900oswg30_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-de",
+      "content": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_b5583800a2944782a17c60bec9cde483@6314151_oswg616982oswg900oswg1030_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">&nbsp;</p> <p><strong>“多模态的AI戒指才是终局。”</strong></p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_5323bae536254653b47209abf0a958b2@6314151_oswg327oswg900oswg30_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">&nbsp;</p> <p>2025年8月，我在广州的Wteam创客节上第一次见到唐畅，和他的AI戒指——确切的说是一个黑色的戒指模型，3D打印的，因为硬件工程师跑路了——<strong>很宽很厚很粗糙，上面还有一块方形的凸起，说是嵌入的摄像头。</strong></p> <p>即便如此简陋，还是吸引来一波关注，问他一堆类似真机摸样、能干嘛、如何保护隐私等问题。在这个充满试探与可能性的AI时代，可穿戴式智能硬件总是能激起大众更多的好奇心。</p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_7c5707df0a064b6db3fe3333c8deb8b9@6314151_oswg453321oswg1080oswg758_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">&nbsp;</p> <p>唐畅的初代Spark Ring模型</p> <p><strong>当下的智能戒指并不少，但多数人都在比拼谁的戒指能将睡眠、血氧等健康因素测量的更准，而唐畅更想做一个多模态的AI戒指。</strong></p> <p>但投资人的审视是更苛刻的。还是那个模型机，当他在投决会上拿出来时，投资人说“你还不如不展示，太大太丑了。”然后撤回一个投资意向。</p> <p><strong>那时的唐畅因为融资屡屡受阻，团队从十几人散到只剩他一个，但他硬是靠着薅各种\"创业低保\"——香港补贴、深圳扶持金、孵化器小钱——活了下来。</strong></p> <p>4个月后，我在深圳第二��见到唐畅。这次他捏着一枚小巧光滑的黑色陶瓷戒指，内壁透明，能看到里面的电路板，LED灯闪烁着。没了凸起的摄像头，跟当初的丑模型完全是两个东西。</p> <p>他融到资了。团队重新膨胀到13人，办公室刚搬进新大厦。<strong>唐畅一直笑，说这是\"世界上第一款指尖AI Agent\"。</strong>那一刻，他的脸上写满了“春风得意”。</p> <p>这款名为Spark Ring的戒指支持最长8小时连续录音，以及随时随地的碎碎念，而手机端的Agent则会做意图识别，主动帮忙添加到日历或to do list，并能方便转发，以及流式解答或编辑用户内容，主打一个隐秘无感又及时。</p> <p>而没了摄像头的戒指，是他的战略性妥协。在他的设想里，多模态的AI戒指一定是未来的指向，那也是他\"憋的大招\"。</p> <p><strong>这像是一场反直觉的突围：当戒指被行业的大多数默认为“体检仪”时，唐畅要把它重新定义为“信息的捕手”。</strong></p> <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260129/v2_e48ec5dbddab4a4c8b1c8077add7ada2@6314151_oswg785466oswg1024oswg1402_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p> <p class=\"img-desc\">&nbsp;</p> <p>CES上展出的新一代Spark Ring</p> <p>唐畅的故事有一种奇怪的张",
+      "published": "2026-01-29T18:33:48+08:00",
+      "updated": "2026-01-29T18:33:48+08:00",
+      "author": "",
+      "source": "36氪",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "人工智能",
+        "36氪",
+        "nbsp",
+        "多模态的ai戒指才是终局",
+        "能录音的ai戒指"
+      ],
+      "fetched_at": "2026-01-30T22:35:25.084760",
+      "short_summary": "“多模态的AI戒指才是终局。” <p class=\"img-de...",
+      "funny_title": "🎯 能录音的AI戒指，是个伪需求吗？|一个95后的硬件生死局 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693227"
+    },
+    {
+      "title": "Guys, I don’t think Tim Cook knows how to monetize AI",
+      "link": "https://techcrunch.com/2026/01/29/guys-i-dont-think-tim-cook-knows-how-to-monetize-ai/",
+      "summary": "One intrepid Morgan Stanley analyst dared to ask how Apple will make money on its AI investments. The answer will not shock you.",
+      "content": "One intrepid Morgan Stanley analyst dared to ask how Apple will make money on its AI investments. The answer will not shock you.",
+      "published": "2026-01-29T23:51:17+00:00",
+      "updated": "2026-01-29T23:51:17+00:00",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "ai",
+        "one",
+        "intrepid"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.456533",
+      "short_summary": "One intrepid Morgan Stanley analyst dared to ask how Apple will make money on its AI investments. The answer will not shock you.。",
+      "funny_title": "💡 Guys, I don’t think Tim Cook knows how to monetize AI 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693322"
+    },
+    {
+      "title": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
+      "link": "https://techcrunch.com/2026/01/29/elon-musk-spacex-tesla-xai-merger-talks-ipo-reuters/",
+      "summary": "This merger would bring the Grok chatbot, Starlink satellites, and SpaceX rockets together under one corporation.",
+      "content": "This merger would bring the Grok chatbot, Starlink satellites, and SpaceX rockets together under one corporation.",
+      "published": "2026-01-29T22:47:42+00:00",
+      "updated": "2026-01-29T22:47:42+00:00",
+      "author": "Amanda Silberling, Kirsten Korosec",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "spacex",
+        "and",
+        "merger"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.456860",
+      "short_summary": "This merger would bring the Grok chatbot, Starlink satellites, and SpaceX rockets together under one corporation.。",
+      "funny_title": "🚀 Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693410"
+    },
+    {
+      "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
+      "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
+      "summary": "If a deal materializes, it would mean Amazon is backing competing startups in the race for AI supremacy.",
+      "content": "If a deal materializes, it would mean Amazon is backing competing startups in the race for AI supremacy.",
+      "published": "2026-01-29T22:11:09+00:00",
+      "updated": "2026-01-29T22:11:09+00:00",
+      "author": "Lucas Ropek",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "tech",
+        "人工智能",
+        "融资",
+        "amazon",
+        "deal",
+        "materializes"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.457155",
+      "short_summary": "If a deal materializes, it would mean Amazon is backing competing startups in the race for AI supremacy.。",
+      "funny_title": "🎯 Amazon is reportedly in talks to invest $50B in OpenAI 来了！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693484"
+    },
+    {
+      "title": "Medium gives employees Friday off to participate in national strike protesting ICE",
+      "link": "https://techcrunch.com/2026/01/29/medium-gives-employees-friday-off-to-participate-in-national-strike-protesting-ice/",
+      "summary": "Activists behind the general strike are calling for \"no work, no school, and no shopping\" amid a push to defund ICE, which has escalated raids in U.S. cities, killing several people, including two U.S. citizens earlier this month in Minneapolis.",
+      "content": "Activists behind the general strike are calling for \"no work, no school, and no shopping\" amid a push to defund ICE, which has escalated raids in U.S. cities, killing several people, including two U.S. citizens earlier this month in Minneapolis.",
+      "published": "2026-01-29T21:49:15+00:00",
+      "updated": "2026-01-29T21:49:15+00:00",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "strike",
+        "ice",
+        "activists"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.457455",
+      "short_summary": "Activists behind the general strike are calling for \"no work, no school, and no shopping\" amid a push to defund ICE, which has escalated raids in U.S.。",
+      "funny_title": "🎯 Medium gives employees Friday off to participate in national strike protesting ICE 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.693621"
+    },
+    {
+      "title": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+      "link": "https://techcrunch.com/2026/01/29/microsoft-wont-stop-buying-ai-chips-from-nvidia-amd-even-after-launching-its-own-nadella-says/",
+      "summary": "Microsoft says its own chip leapfrogs those made by other cloud providers like Amazon and Google. But it needs more.",
+      "content": "Microsoft says its own chip leapfrogs those made by other cloud providers like Amazon and Google. But it needs more.",
+      "published": "2026-01-29T21:21:46+00:00",
+      "updated": "2026-01-29T21:21:46+00:00",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "microsoft",
+        "says",
+        "chip"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.457738",
+      "short_summary": "Microsoft says its own chip leapfrogs those made by other cloud providers like Amazon and Google. But it needs more.。",
+      "funny_title": "🎯 Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "云服务"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693709"
+    },
+    {
+      "title": "Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach",
+      "link": "https://techcrunch.com/2026/01/29/fintech-firm-marquis-blames-hack-at-firewall-provider-sonicwall-for-its-data-breach/",
+      "summary": "The fintech giant said it plans to \"seek recoupment of any expenses\" from its firewall provider SonicWall after a 2025 data breach exposed customer firewall configurations.",
+      "content": "The fintech giant said it plans to \"seek recoupment of any expenses\" from its firewall provider SonicWall after a 2025 data breach exposed customer firewall configurations.",
+      "published": "2026-01-29T20:31:43+00:00",
+      "updated": "2026-01-29T20:31:43+00:00",
+      "author": "Zack Whittaker",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "firewall",
+        "fintech",
+        "provider"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.458024",
+      "short_summary": "The fintech giant said it plans to \"seek recoupment of any expenses\" from its firewall provider SonicWall after a 2025 data breach exposed customer fi。",
+      "funny_title": "🔮 Fintech firm Marquis blames hack at firewall provider SonicWall for its data breach 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.693820"
+    },
+    {
+      "title": "Satya Nadella insists people are using Microsoft’s Copilot AI a lot",
+      "link": "https://techcrunch.com/2026/01/29/satya-nadella-insists-people-are-using-microsofts-copilot-ai-a-lot/",
+      "summary": "With Microsoft spending many billions on data centers, and rumors that no one is using its AI, CEO Satya Nadella shared some usage numbers.",
+      "content": "With Microsoft spending many billions on data centers, and rumors that no one is using its AI, CEO Satya Nadella shared some usage numbers.",
+      "published": "2026-01-29T20:06:56+00:00",
+      "updated": "2026-01-29T20:06:56+00:00",
+      "author": "Julie Bort",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "satya",
+        "nadella",
+        "microsoft"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.458300",
+      "short_summary": "With Microsoft spending many billions on data centers, and rumors that no one is using its AI, CEO Satya Nadella shared some usage numbers.。",
+      "funny_title": "🤖 Satya Nadella insists people are using Microsoft’s Copilot AI a lot 来了！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.693914"
+    },
+    {
+      "title": "Apple buys Israeli startup Q.ai as the AI race heats up",
+      "link": "https://techcrunch.com/2026/01/29/apple-buys-israeli-startup-q-ai-as-the-ai-race-heats-up/",
+      "summary": "Q.ai is an Israeli startup specializing in imaging and machine learning, particularly technologies that enable devices to interpret whispered speech and enhance audio in noisy environments.",
+      "content": "Q.ai is an Israeli startup specializing in imaging and machine learning, particularly technologies that enable devices to interpret whispered speech and enhance audio in noisy environments.",
+      "published": "2026-01-29T18:58:07+00:00",
+      "updated": "2026-01-29T18:58:07+00:00",
+      "author": "Lauren Forristal",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "tech",
+        "人工智能",
+        "融资",
+        "ai",
+        "and",
+        "israeli"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.458583",
+      "short_summary": "Q.ai is an Israeli startup specializing in imaging and machine learning, particularly technologies that enable devices to interpret whispered speech a。",
+      "funny_title": "🎯 Apple buys Israeli startup Q.ai as the AI race heats up 来了！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.694010"
+    },
+    {
+      "title": "Waymo robotaxis are now giving rides to and from San Francisco International Airport",
+      "link": "https://techcrunch.com/2026/01/29/waymo-sfo-airport-robotaxis/",
+      "summary": "Waymo's SFO win comes as the company faces criticism and concerns about safety in some of the cities it operates.",
+      "content": "Waymo's SFO win comes as the company faces criticism and concerns about safety in some of the cities it operates.",
+      "published": "2026-01-29T17:55:43+00:00",
+      "updated": "2026-01-29T17:55:43+00:00",
+      "author": "Kirsten Korosec",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "waymo",
+        "and",
+        "sfo"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.458847",
+      "short_summary": "Waymo's SFO win comes as the company faces criticism and concerns about safety in some of the cities it operates.。",
+      "funny_title": "🎯 Waymo robotaxis are now giving rides to and from San Francisco International Airport 揭秘！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.694092"
+    },
+    {
+      "title": "I built marshmallow castles in Google’s new AI-world generator",
+      "link": "https://techcrunch.com/2026/01/29/i-built-marshmallow-castles-in-googles-new-ai-world-generator-project-genie/",
+      "summary": "Starting Thursday, Google AI Ultra subscribers in the U.S. can play around with Project Genie, which is powered by a combination of Google’s latest world model Genie 3, its image generation model Nano Banana Pro, and Gemini.",
+      "content": "Starting Thursday, Google AI Ultra subscribers in the U.S. can play around with Project Genie, which is powered by a combination of Google’s latest world model Genie 3, its image generation model Nano Banana Pro, and Gemini.",
+      "published": "2026-01-29T17:29:11+00:00",
+      "updated": "2026-01-29T17:29:11+00:00",
+      "author": "Rebecca Bellan",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "google",
+        "genie",
+        "model"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.459127",
+      "short_summary": "Starting Thursday, Google AI Ultra subscribers in the U.S. can play around with Project Genie, which is powered by a combination of Google’s latest wo。",
+      "funny_title": "📢 I built marshmallow castles in Google’s new AI-world generator 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.694226"
+    },
+    {
+      "title": "OpenAI’s Sora app is struggling after its stellar launch",
+      "link": "https://techcrunch.com/2026/01/29/openais-sora-app-is-struggling-after-its-stellar-launch/",
+      "summary": "New data suggests the app is seeing declines in both app downloads and consumer spending, as the early hype about the AI video social network wears off.",
+      "content": "New data suggests the app is seeing declines in both app downloads and consumer spending, as the early hype about the AI video social network wears off.",
+      "published": "2026-01-29T16:48:44+00:00",
+      "updated": "2026-01-29T16:48:44+00:00",
+      "author": "Sarah Perez",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "app",
+        "data",
+        "suggests"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.459411",
+      "short_summary": "New data suggests the app is seeing declines in both app downloads and consumer spending, as the early hype about the AI video social network wears of。",
+      "funny_title": "⚡ OpenAI’s Sora app is struggling after its stellar launch 速看！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.694320"
+    },
+    {
+      "title": "Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works",
+      "link": "https://techcrunch.com/2026/01/29/music-publishers-sue-anthropic-for-3b-over-flagrant-piracy-of-20000-works/",
+      "summary": "Originally, these music publishers had filed a lawsuit against Anthropic over its use of about 500 copyrighted works.",
+      "content": "Originally, these music publishers had filed a lawsuit against Anthropic over its use of about 500 copyrighted works.",
+      "published": "2026-01-29T16:30:29+00:00",
+      "updated": "2026-01-29T16:30:29+00:00",
+      "author": "Amanda Silberling",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "music",
+        "publishers",
+        "anthropic"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.459691",
+      "short_summary": "Originally, these music publishers had filed a lawsuit against Anthropic over its use of about 500 copyrighted works.。",
+      "funny_title": "🚀 Music publishers sue Anthropic for $3B over ‘flagrant piracy’ of 20,000 works 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "云服务"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.694405"
+    },
+    {
+      "title": "India is teaching Google how AI in education can scale",
+      "link": "https://techcrunch.com/2026/01/29/india-is-teaching-google-how-ai-in-education-can-scale/",
+      "summary": "With the highest global usage of Gemini for learning, India is emerging as a key market shaping Google's approach to AI in education.",
+      "content": "With the highest global usage of Gemini for learning, India is emerging as a key market shaping Google's approach to AI in education.",
+      "published": "2026-01-29T15:29:31+00:00",
+      "updated": "2026-01-29T15:29:31+00:00",
+      "author": "Jagmeet Singh",
+      "source": "TechCrunch",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "TechCrunch",
+        "人工智能",
+        "tech",
+        "india",
+        "google",
+        "ai"
+      ],
+      "fetched_at": "2026-01-30T22:35:26.459978",
+      "short_summary": "With the highest global usage of Gemini for learning, India is emerging as a key market shaping Google's approach to AI in education.。",
+      "funny_title": "🚀 India is teaching Google how AI in education can scale 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.694485"
+    },
+    {
+      "title": "At MIT, a continued commitment to understanding intelligence",
+      "link": "https://news.mit.edu/2026/continued-commitment-to-understanding-intelligence-0114",
+      "summary": "With support from the Siegel Family Endowment, the newly renamed MIT Siegel Family Quest for Intelligence investigates how brains produce intelligence and how it can be replicated to solve problems.",
+      "content": "<p>The MIT Siegel Family Quest for Intelligence (SQI), a research unit in the MIT Schwarzman College of Computing, brings together researchers from across MIT who combine their diverse expertise to understand intelligence through tightly coupled scientific inquiry and rigorous engineering. These researchers engage in collaborative efforts spanning science, engineering, the humanities, and more.&nbsp;</p><p>SQI seeks to comprehend how brains produce intelligence and how it can be replicated in artificial systems to address real-world problems that exceed the capabilities of current artificial intelligence technologies.</p><p>“In SQI, we are studying intelligence scientifically and generically, in the hope that by studying neuroscience and behavior in humans and animals, and also studying what we can build as intelligent engineering artifacts, we'll be able to understand the fundamental underlying principles of intelligence,” says <a href=\"https://sqi.mit.edu/about/people/leslie-kaelbling\">Leslie Pack Kaelbling</a>, SQI director of research and the Panasonic Professor in the MIT Department of Electrical Engineering and Computer Science.</p><p>“We in SQI believe that understanding human intelligence is one of the greatest open questions in science — right up there with the origin of the universe and our place in it, and the origin of life. The question of human intelligence has two parts: how it works, and where it comes from. If we understand those, we will see payoffs well beyond our current imaginings,\" says <a href=\"https://sqi.mit.edu/about/people/james-dicarlo\">Jim DiCarlo</a>, SQI director and the Peter de Florez Professor of Neuroscience in the MIT Department of Brain and Cognitive Sciences.</p><p><strong>Exploring the great mysteries of the mind</strong></p><p>The MIT Siegel Family Quest for Intelligence was recently renamed in recognition of a major gift from the <a href=\"https://www.siegelendowment.org/\">Siegel Family Endowment</a> that is enabling further g",
+      "published": "2026-01-14T16:50:00-05:00",
+      "updated": "2026-01-14T16:50:00-05:00",
+      "author": "Rachel Kemper | MIT Quest for Intelligence",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "intelligence",
+        "mit"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.420374",
+      "short_summary": "With support from the Siegel Family Endowment, the newly renamed MIT Siegel Family Quest for Intelligence investigates how brains produce intelligence。",
+      "funny_title": "✨ At MIT, a continued commitment to understanding intelligence 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.694908"
+    },
+    {
+      "title": "Generative AI tool helps 3D print personal items that sustain daily use",
+      "link": "https://news.mit.edu/2026/genai-tool-helps-3d-print-personal-items-sustain-daily-use-0114",
+      "summary": "“MechStyle” allows users to personalize 3D models, while ensuring they’re physically viable after fabrication, producing unique personal items and assistive technology.",
+      "content": "<p dir=\"ltr\" id=\"docs-internal-guid-e3a8d821-7fff-c750-a6f1-f37cf5dc6658\">Generative artificial intelligence models have left such an indelible impact on digital content creation that it’s getting harder to recall what the internet was like before it. You can call on these AI tools for clever projects such as videos and photos — but their flair for the creative hasn’t quite crossed over into the physical world just yet.<br /><br />So why haven’t we seen generative AI-enabled personalized objects, such as phone cases and pots, in places like homes, offices, and stores yet? According to MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) researchers, a key issue is the mechanical integrity of the 3D model.</p><p dir=\"ltr\">While AI can help generate personalized 3D models that you can fabricate, those systems don’t often consider the physical properties of the 3D model. MIT Department of Electrical Engineering and Computer Science (EECS) PhD student and CSAIL engineer Faraz Faruqi has explored this trade-off, creating generative AI-based systems that can make aesthetic changes to designs while&nbsp;<a href=\"https://news.mit.edu/2023/ai-driven-tool-personalize-3d-printable-models-0915\">preserving functionality,</a> and another that modifies structures with the desired&nbsp;<a href=\"https://news.mit.edu/2025/3d-modeling-you-can-feel-0422\">tactile properties</a> users want to feel.<br /><br /><strong>Making it real</strong>&nbsp;</p><p dir=\"ltr\">Together with researchers at Google, Stability AI, and Northeastern University, Faruqi has now found a way to make real-world objects with AI, creating items that are both durable and exhibit the user’s intended appearance and texture. With the AI-powered “<a href=\"https://dl.acm.org/doi/10.1145/3745778.3766655\" target=\"_blank\">MechStyle</a>” system, users simply upload a 3D model or select a preset asset of things like vases and hooks, and prompt the tool using images or text to create a personalized version. A ge",
+      "published": "2026-01-14T16:00:00-05:00",
+      "updated": "2026-01-14T16:00:00-05:00",
+      "author": "Alex Shipps | MIT CSAIL",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "ai",
+        "3d"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.420557",
+      "short_summary": "“MechStyle” allows users to personalize 3D models, while ensuring they’re physically viable after fabrication, producing unique personal items and ass。",
+      "funny_title": "🎯 Generative AI tool helps 3D print personal items that sustain daily use 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.695318"
+    },
+    {
+      "title": "3 Questions: How AI could optimize the power grid",
+      "link": "https://news.mit.edu/2026/3-questions-how-ai-could-optimize-power-grid-0109",
+      "summary": "While the growing energy demands of AI are worrying, some techniques can also help make power grids cleaner and more efficient.",
+      "content": "<p><em>Artificial intelligence has captured headlines recently for its&nbsp;</em><a href=\"https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai\" target=\"_blank\"><em>rapidly growing energy demands</em></a><em>, and particularly the surging&nbsp;</em><a href=\"https://www.pewresearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/\" target=\"_blank\"><em>electricity usage of data centers</em></a><em> that enable the training and deployment of the latest generative AI models. But it’s not all bad news — some AI tools have the potential to reduce some forms of energy consumption and enable cleaner grids.</em></p><p><em>One of the most promising applications is using AI to optimize the power grid, which would improve efficiency, increase resilience to extreme weather, and enable the integration of more renewable energy. To learn more,&nbsp;</em>MIT News<em> spoke with&nbsp;</em><a href=\"https://news.mit.edu/2025/fighting-health-planet-ai-priya-donti-1007\" target=\"_blank\"><em>Priya Donti</em></a><em>, the Silverman Family Career Development Professor in the MIT Department of Electrical Engineering and Computer Science (EECS) and a principal investigator at the Laboratory for Information and Decision Systems (LIDS), whose work focuses on applying machine learning to optimize the power grid.</em></p><p><strong>Q:</strong> Why does the power grid need to be optimized in the first place?</p><p><strong>A:</strong> We need to maintain an exact balance between the amount of power that is put into the grid and the amount that comes out at every moment in time. But on the demand side, we have some uncertainty. Power companies don’t ask customers to pre-register the amount of energy they are going to use ahead of time, so some estimation and prediction must be done.</p><p>Then, on the supply side, there is typically some variation in costs and fuel availability that grid managers need to be responsive to. That has become an even b",
+      "published": "2026-01-09T00:00:00-05:00",
+      "updated": "2026-01-09T00:00:00-05:00",
+      "author": "Adam Zewe | MIT News",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "power",
+        "grid"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.420731",
+      "short_summary": "While the growing energy demands of AI are worrying, some techniques can also help make power grids cleaner and more efficient.。",
+      "funny_title": "⚡ 3 Questions: How AI could optimize the power grid 揭秘！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.695692"
+    },
+    {
+      "title": "Decoding the Arctic to predict winter weather",
+      "link": "https://news.mit.edu/2026/decoding-arctic-to-predict-winter-weather-0108",
+      "summary": "With the help of AI, MIT Research Scientist Judah Cohen is reshaping subseasonal forecasting, with the goal of extending the lead time for predicting impactful weather.",
+      "content": "<p>Every autumn, as the Northern Hemisphere moves toward winter, <a href=\"http://www.judahcohen.org/\" target=\"_blank\">Judah Cohen</a> starts to piece together a complex atmospheric puzzle. Cohen, a research scientist in MIT’s Department of Civil and Environmental Engineering (CEE), has spent decades studying how conditions in the Arctic set the course for winter weather throughout Europe, Asia, and North America. His research dates back to his postdoctoral work with Bacardi and Stockholm Water Foundations Professor Dara Entekhabi that looked at snow cover in the Siberian region and its connection with winter forecasting.</p><p>Cohen’s outlook for the 2025–26 winter highlights a season characterized by indicators emerging from the Arctic using a new generation of artificial intelligence tools that help develop the full atmospheric picture.</p><p><strong>Looking beyond the usual climate drivers</strong></p><p>Winter forecasts rely heavily on El Niño–Southern Oscillation (ENSO) diagnostics, which are the tropical Pacific Ocean and atmosphere conditions that influence weather around the world. However, Cohen notes that ENSO is relatively weak this year.</p><p>“When ENSO is weak, that’s when climate indicators from the Arctic becomes especially important,” Cohen says.</p><p>Cohen monitors high-latitude diagnostics in his subseasonal forecasting, such as October snow cover in Siberia, early-season temperature changes, Arctic sea-ice extent, and the stability of the polar vortex. “These indicators can tell a surprisingly detailed story about the upcoming winter,” he says.&nbsp;</p><p>One of Cohen’s most consistent data predictors is October’s weather in Siberia. This year, when the Northern Hemisphere experienced an unusually warm October, Siberia was colder than normal with an early snow fall. “Cold temperatures paired with early snow cover tend to strengthen the formation of cold air masses that can later spill into Europe and North America,” says Cohen — weather pattern",
+      "published": "2026-01-08T16:55:00-05:00",
+      "updated": "2026-01-08T16:55:00-05:00",
+      "author": "Stephanie Martinovich | Department of Civil and Environmental Engineering",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "cohen",
+        "and",
+        "winter"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.420897",
+      "short_summary": "With the help of AI, MIT Research Scientist Judah Cohen is reshaping subseasonal forecasting, with the goal of extending the lead time for predicting 。",
+      "funny_title": "📢 Decoding the Arctic to predict winter weather 来了！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.696149"
+    },
+    {
+      "title": "Stone Center on Inequality and Shaping the Future of Work Launches at MIT",
+      "link": "https://news.mit.edu/2026/stone-center-inequality-shaping-future-work-launches-0107",
+      "summary": "Recent launch event for the center featured discussions on pro-worker AI, wealth inequality, and the future of liberal democracy.",
+      "content": "<p>The <a href=\"https://shapingwork.mit.edu/\">James M. and Cathleen D. Stone Center on Inequality and Shaping the Future of Work</a> officially&nbsp;<a href=\"https://www.youtube.com/playlist?list=PL0GFr20m_eBK5Qv1wtGEDtVUy-L_kNbCJ\">launched</a> on Nov. 3, 2025, bringing together scholars, policymakers, and practitioners to explore critical questions about economic opportunity, technology, and democracy.</p><p>Co-directed by MIT professors&nbsp;<a href=\"https://shapingwork.mit.edu/about-us/daron-acemoglu/\">Daron Acemoglu</a>,&nbsp;<a href=\"https://shapingwork.mit.edu/about-us/david-autor/\">David Autor</a>, and&nbsp;<a href=\"https://shapingwork.mit.edu/about-us/simon-johnson/\">Simon Johnson</a>, the new&nbsp;Stone Center analyzes the forces that contribute to growing income and wealth inequality through the erosion of job quality and labor market opportunities for workers without a college degree. The center identifies innovative ways to move the economy onto a more equitable trajectory.</p><p>MIT Provost&nbsp;<a href=\"https://chandrakasan.mit.edu/about/\">Anantha Chandrakasan</a>&nbsp;<a href=\"https://youtu.be/TzNVgzIS6zQ\">opened the launch event</a> by emphasizing the urgency and importance of the center's mission. “As artificial intelligence tools become more powerful, and as they are deployed more broadly,” he said, “we will need to strive to ensure that people from all kinds of backgrounds can find opportunity in the economy.”</p><p>Here are some of the key takeaways from participants in the afternoon’s discussions on&nbsp;<a href=\"https://youtu.be/vMfJ-_Z2j0A\">wealth inequality</a>,&nbsp;<a href=\"https://youtu.be/WEmmIk_2Wdo\">liberalism</a>, and&nbsp;<a href=\"https://youtu.be/14CYkxY37Bs\">pro-worker AI</a>.</p><p><strong>Wealth inequality is driven by private business and public policy</strong></p><p><a href=\"https://zidar.princeton.edu/\">Owen Zidar</a> of Princeton University stressed that owners of businesses like car dealerships, construction firms, and franch",
+      "published": "2026-01-07T15:30:00-05:00",
+      "updated": "2026-01-07T15:30:00-05:00",
+      "author": "Julia Regier | Blueprint Labs",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "nbsp",
+        "center"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.421053",
+      "short_summary": "Recent launch event for the center featured discussions on pro-worker AI, wealth inequality, and the future of liberal democracy.。",
+      "funny_title": "✨ Stone Center on Inequality and Shaping the Future of Work Launches at MIT 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "科技创投",
+        "开发工具"
+      ],
+      "image_suggestion": "🎁 产品发布/礼物盒图",
+      "processed_at": "2026-01-30T22:35:52.696466"
+    },
+    {
+      "title": "MIT scientists investigate memorization risk in the age of clinical AI",
+      "link": "https://news.mit.edu/2026/mit-scientists-investigate-memorization-risk-clinical-ai-0105",
+      "summary": "New research demonstrates how AI models can be tested to ensure they don’t cause harm by revealing anonymized patient health data.",
+      "content": "<p dir=\"ltr\">What is patient privacy for? The Hippocratic Oath, thought to be one of the earliest and most widely known medical ethics texts in the world, reads: “Whatever I see or hear in the lives of my patients, whether in connection with my professional practice or not, which ought not to be spoken of outside, I will keep secret, as considering all such things to be private.”&nbsp;</p><p dir=\"ltr\">As privacy becomes increasingly scarce in the age of data-hungry algorithms and cyberattacks, medicine is one of the few remaining domains where confidentiality remains central to practice, enabling patients to trust their physicians with sensitive information.</p><p dir=\"ltr\">But&nbsp;<a href=\"https://neurips.cc/virtual/2025/loc/san-diego/poster/118370\">a paper</a> co-authored by MIT researchers investigates how artificial intelligence models trained on de-identified electronic health records (EHRs) can memorize patient-specific information. The work, which was recently presented at the 2025 Conference on Neural Information Processing Systems (NeurIPS), recommends a rigorous testing setup to ensure targeted prompts cannot reveal information, emphasizing that leakage must be evaluated in a health care context to determine whether it meaningfully compromises patient privacy.</p><p dir=\"ltr\">Foundation models trained on EHRs should normally generalize knowledge to make better predictions, drawing upon many patient records. But in “memorization,” the model draws upon a singular patient record to deliver its output, potentially violating patient privacy. Notably, foundation models are already known to be&nbsp;<a href=\"https://icml.cc/virtual/2025/workshop/39996\">prone to data leakage</a>.</p><p dir=\"ltr\">“Knowledge in these high-capacity models can be a resource for many communities, but adversarial attackers can prompt a model to extract information on training data,” says Sana Tonekaboni, a postdoc at the Eric and Wendy Schmidt Center at the Broad Institute of MIT and Ha",
+      "published": "2026-01-05T16:55:00-05:00",
+      "updated": "2026-01-05T16:55:00-05:00",
+      "author": "Alex Ouyang | Abdul Latif Jameel Clinic for Machine Learning in Health",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "patient",
+        "models",
+        "information"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.421222",
+      "short_summary": "New research demonstrates how AI models can be tested to ensure they don’t cause harm by revealing anonymized patient health data.。",
+      "funny_title": "🤖 MIT scientists investigate memorization risk in the age of clinical AI 来了！",
+      "topics": [
+        "AI/机器学习",
+        "云服务",
+        "数据科学"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.696862"
+    },
+    {
+      "title": "Using design to interpret the past and envision the future",
+      "link": "https://news.mit.edu/2026/using-design-interpret-past-envision-future-c-jacob-payne-0105",
+      "summary": "MIT graduate student C Jacob Payne reimagines historic architecture and invents new possibilities at the intersection of AI and design.",
+      "content": "<p>Some of designer C Jacob Payne’s projects present new, futuristic products — such as zero-gravity footwear for astronauts, and electronic-embedded ceramics — using technological tools and processes of digital fabrication, material innovation, and interactive interfaces. Other projects travel back in time to past centuries, considering the challenge of preserving and reconstructing Black architectural heritage.</p><p>Payne graduated from Yale University with a bachelor’s degree in architecture and environmental studies, and then worked briefly at architecture firms in New York and Los Angeles. He decided to pursue a professional degree in order to become a licensed architect and to try out different types of design. He began the&nbsp;<a href=\"https://oge.mit.edu/gpp/advanced-degrees/masters-degree/master-of-architecture/\">MIT Master of Architecture</a> (MArch) program in 2023, and is aiming to graduate in January 2027.</p><p>“I have especially valued the academic freedom to make my own path,” says Payne. “Although the MArch program requires certain classes each semester, I’ve been able to find a way to tailor the degree in a way that really reflects my interests.”</p><p>Payne says he appreciates how his experiences in the program have allowed him to work on design projects at a variety of scales — from the smaller scale in industrial and product design classes, to the larger scale in classes in the&nbsp;<a href=\"https://dusp.mit.edu/\">Department of Urban Studies and Planning</a>. He is a collaborator at the&nbsp;<a href=\"https://designintelligence.mit.edu/\">Design Intelligence Lab</a> and has served as a teaching assistant in MIT’s architecture wood shop, helping students to bring together digital design techniques with hands-on fabrication. Payne says he values the off-campus opportunities he has had, including working at a furniture and product design company in Barcelona through&nbsp;<a href=\"https://misti.mit.edu/\">MISTI</a> and spending a summer working at th",
+      "published": "2026-01-05T15:25:00-05:00",
+      "updated": "2026-01-05T15:25:00-05:00",
+      "author": "Stefanie Koperniak | Office of Graduate Education",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "design",
+        "payne"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.421386",
+      "short_summary": "MIT graduate student C Jacob Payne reimagines historic architecture and invents new possibilities at the intersection of AI and design.。",
+      "funny_title": "⚡ Using design to interpret the past and envision the future 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.697275"
+    },
+    {
+      "title": "Guided learning lets “untrainable” neural networks realize their potential",
+      "link": "https://news.mit.edu/2025/guided-learning-lets-untrainable-neural-networks-realize-their-potential-1218",
+      "summary": "CSAIL researchers find even “untrainable” neural nets can learn effectively when guided by another network’s built-in biases using their guidance method.",
+      "content": "<p dir=\"ltr\" id=\"docs-internal-guid-fb3bf34a-7fff-7c39-06e2-626dc3313469\">Even networks long considered “untrainable” can learn effectively with a bit of a helping hand. Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) have shown that a brief period of alignment between neural networks, a method they call guidance, can dramatically improve the performance of architectures previously thought unsuitable for modern tasks.</p><p dir=\"ltr\">Their findings suggest that many so-called “ineffective” networks may simply start from less-than-ideal starting points, and that short-term guidance can place them in a spot that makes learning easier for the network.&nbsp;</p><p dir=\"ltr\">The team’s guidance method works by encouraging a target network to match the internal representations of a guide network during training. Unlike traditional methods like knowledge distillation, which focus on mimicking a teacher’s outputs, guidance transfers structural knowledge directly from one network to another. This means the target learns how the guide organizes information within each layer, rather than simply copying its behavior. Remarkably, even untrained networks contain architectural biases that can be transferred, while trained guides additionally convey learned patterns.&nbsp;</p><p dir=\"ltr\">“We found these results pretty surprising,” says Vighnesh Subramaniam ’23, MEng ’24, MIT Department of Electrical Engineering and Computer Science (EECS) PhD student and CSAIL researcher, who is a lead author on a&nbsp;<a href=\"https://arxiv.org/abs/2410.20035\">paper</a> presenting these findings. “It’s impressive that we could use representational similarity to make these traditionally ‘crappy’ networks actually work.”</p><p dir=\"ltr\"><strong>Guide-ian angel&nbsp;</strong></p><p dir=\"ltr\">A central question was whether guidance must continue throughout training, or if its primary effect is to provide a better initialization. To explore this, the researchers pe",
+      "published": "2025-12-18T16:20:00-05:00",
+      "updated": "2025-12-18T16:20:00-05:00",
+      "author": "Rachel Gordon | MIT CSAIL",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "guidance",
+        "networks",
+        "network"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.421732",
+      "short_summary": "CSAIL researchers find even “untrainable” neural nets can learn effectively when guided by another network’s built-in biases using their guidance meth。",
+      "funny_title": "🤖 Guided learning lets “untrainable” neural networks realize their potential 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.697680"
+    },
+    {
+      "title": "A new way to increase the capabilities of large language models",
+      "link": "https://news.mit.edu/2025/new-way-to-increase-large-language-model-capabilities-1217",
+      "summary": "MIT-IBM Watson AI Lab researchers developed an expressive architecture that provides better state tracking and sequential reasoning in LLMs over long texts.",
+      "content": "<p>Most languages use word position and sentence structure to extract meaning. For example, “The cat sat on the box,” is not the same as “The box was on the cat.” Over a long text, like a financial document or a novel, the syntax of these words likely evolves.&nbsp;</p><p>Similarly, a person might be tracking variables in a piece of code or following instructions that have conditional actions. These are examples of state changes and sequential reasoning that we expect state-of-the-art artificial intelligence systems to excel at; however, the existing, cutting-edge attention mechanism within transformers — the primarily architecture used in large language models (LLMs) for determining the importance of words — has theoretical and empirical limitations when it comes to such capabilities.</p><p>An attention mechanism allows an LLM to look back at earlier parts of a query or document and, based on its training, determine which details and words matter most; however, this mechanism alone does not understand word order. It “sees” all of the input words, a.k.a. tokens, at the same time and handles them in the order that they’re presented, so researchers have developed techniques to encode position information. This is key for domains that are highly structured, like language. But the predominant position-encoding method, called rotary position encoding (RoPE), only takes into account the relative distance between tokens in a sequence and is independent of the input data. This means that, for example, words that are four positions apart, like “cat” and “box” in the example above, will all receive the same fixed mathematical rotation specific to that relative distance.&nbsp;</p><p>Now research led by MIT and the MIT-IBM Watson AI Lab has produced an encoding technique known as “PaTH Attention” that makes positional information adaptive and context-aware rather than static, as with RoPE.</p><p>“Transformers enable accurate and scalable modeling of many domains, but they have",
+      "published": "2025-12-17T23:10:00-05:00",
+      "updated": "2025-12-17T23:10:00-05:00",
+      "author": "Lauren Hinkel | MIT-IBM Watson AI Lab",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "words",
+        "position"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.421897",
+      "short_summary": "MIT-IBM Watson AI Lab researchers developed an expressive architecture that provides better state tracking and sequential reasoning in LLMs over long 。",
+      "funny_title": "🤖 A new way to increase the capabilities of large language models 惊了！",
+      "topics": [
+        "AI/机器学习",
+        "数据科学"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.698130"
+    },
+    {
+      "title": "A “scientific sandbox” lets researchers explore the evolution of vision systems",
+      "link": "https://news.mit.edu/2025/scientific-sandbox-lets-researchers-explore-evolution-vision-systems-1217",
+      "summary": "The AI-powered tool could inform the design of better sensors and cameras for robots or autonomous vehicles.",
+      "content": "<p>Why did humans evolve the eyes we have today?</p><p>While scientists can’t go back in time to study the environmental pressures that shaped the evolution of the diverse vision systems that exist in nature, a new computational framework developed by MIT researchers allows them to explore this evolution in artificial intelligence agents.</p><p>The framework they developed, in which embodied AI agents evolve eyes and learn to see over many generations, is like a “scientific sandbox” that allows researchers to recreate different evolutionary trees. The user does this by changing the structure of the world and the tasks AI agents complete, such as finding food or telling objects apart.</p><p>This allows them to study why one animal may have evolved simple, light-sensitive patches as eyes, while another has complex, camera-type eyes.</p><p>The researchers’ experiments with this framework showcase how tasks drove eye evolution in the agents. For instance, they found that navigation tasks often led to the evolution of compound eyes with many individual units, like the eyes of insects and crustaceans.</p><p>On the other hand, if agents focused on object discrimination, they were more likely to evolve camera-type eyes with irises and retinas.</p><p>This framework could enable scientists to probe “what-if” questions about vision systems that are difficult to study experimentally. It could also guide the design of novel sensors and cameras for robots, drones, and wearable devices that balance performance with real-world constraints like energy efficiency and manufacturability.</p><p>“While we can never go back and figure out every detail of how evolution took place, in this work we’ve created an environment where we can, in a sense, recreate evolution and probe the environment in all these different ways. This method of doing science opens to the door to a lot of possibilities,” says Kushagra Tiwary, a graduate student at the MIT Media Lab and co-lead author of a paper on th",
+      "published": "2025-12-17T14:00:00-05:00",
+      "updated": "2025-12-17T14:00:00-05:00",
+      "author": "Adam Zewe | MIT News",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "evolution",
+        "eyes"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.422060",
+      "short_summary": "The AI-powered tool could inform the design of better sensors and cameras for robots or autonomous vehicles.。",
+      "funny_title": "🔥 A “scientific sandbox” lets researchers explore the evolution of vision systems 更新啦！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.698564"
+    },
+    {
+      "title": "“Robot, make me a chair”",
+      "link": "https://news.mit.edu/2025/robot-makes-chair-1216",
+      "summary": "An AI-driven system lets users design and build simple, multicomponent objects by describing them with words.",
+      "content": "<p>Computer-aided design (CAD) systems are tried-and-true tools used to design many of the physical objects we use each day. But CAD software requires extensive expertise to master, and many tools incorporate such a high level of detail they don’t lend themselves to brainstorming or rapid prototyping.</p><p>In an effort to make design faster and more accessible for non-experts, researchers from MIT and elsewhere developed an AI-driven robotic assembly system that allows people to build physical objects by simply describing them in words.</p><p>Their system uses a generative AI model to build a 3D representation of an object’s geometry based on the user’s prompt. Then, a second generative AI model reasons about the desired object and figures out where different components should go, according to the object’s function and geometry.</p><p>The system can automatically build the object from a set of prefabricated parts using robotic assembly. It can also iterate on the design based on feedback from the user.</p><p>The researchers used this end-to-end system to fabricate furniture, including chairs and shelves, from two types of premade components. The components can be disassembled and reassembled at will, reducing the amount of waste generated through the fabrication process.</p><p>They evaluated these designs through a user study and found that more than 90 percent of participants preferred the objects made by their AI-driven system, as compared to different approaches.</p><p>While this work is an initial demonstration, the framework could be especially useful for rapid prototyping complex objects like aerospace components and architectural objects. In the longer term, it could be used in homes to fabricate furniture or other objects locally, without the need to have bulky products shipped from a central facility.</p><p>“Sooner or later, we want to be able to communicate and talk to a robot and AI system the same way we talk to each other to make things together. Our s",
+      "published": "2025-12-16T00:00:00-05:00",
+      "updated": "2025-12-16T00:00:00-05:00",
+      "author": "Adam Zewe | MIT News",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "system",
+        "objects"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.422225",
+      "short_summary": "An AI-driven system lets users design and build simple, multicomponent objects by describing them with words.。",
+      "funny_title": "📢 “Robot, make me a chair” 速看！",
+      "topics": [
+        "AI/机器学习",
+        "开发工具"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.698983"
+    },
+    {
+      "title": "3 Questions: Using computation to study the world’s best single-celled chemists",
+      "link": "https://news.mit.edu/2025/3-questions-yunha-hwang-using-computation-study-worlds-best-single-celled-chemists-1215",
+      "summary": "Assistant Professor Yunha Hwang utilizes microbial genomes to examine the language of biology. Her appointment reflects MIT’s commitment to exploring the intersection of genetics research and AI.",
+      "content": "<p dir=\"ltr\"><em>Today, out of an estimated 1 trillion species on Earth, 99.999 percent are considered microbial — bacteria, archaea, viruses, and single-celled eukaryotes. For much of our planet’s history, microbes ruled the Earth, able to live and thrive in the most extreme of environments. Researchers have only just begun in the last few decades to contend with the diversity of microbes — it’s estimated that less than 1 percent of known genes have laboratory-validated functions. Computational approaches offer researchers the opportunity to strategically parse this truly astounding amount of information.</em></p><p dir=\"ltr\"><em>An environmental microbiologist and computer scientist by training, new MIT faculty member </em><a href=\"https://biology.mit.edu/profile/yunha-hwang/\" target=\"_blank\"><em>Yunha Hwang</em></a><em> is interested in the novel biology revealed by the most diverse and prolific life form on Earth. In a shared faculty position as the Samuel A. Goldblith Career Development Professor in the </em><a href=\"https://biology.mit.edu/\" target=\"_blank\"><em>Department of Biology,</em></a><em> as well as an assistant professor at the </em><a href=\"https://www.eecs.mit.edu/\"><em>Department of Electrical Engineering and Computer Science</em></a><em> and the </em><a href=\"https://computing.mit.edu/\" target=\"_blank\"><em>MIT Schwarzman College of Computing</em></a><em>, Hwang is exploring the intersection of computation and biology.&nbsp;&nbsp;</em></p><p dir=\"ltr\"><strong>Q: </strong>What drew you to research microbes in extreme environments, and what are the challenges in studying them?&nbsp;</p><p dir=\"ltr\"><strong>A: </strong>Extreme environments are great places to look for interesting biology. I wanted to be an astronaut growing up, and the closest thing to astrobiology is examining extreme environments on Earth. And the only thing that lives in those extreme environments are microbes. During a sampling expedition that I took part in off the coast of Mexic",
+      "published": "2025-12-15T17:15:00-05:00",
+      "updated": "2025-12-15T17:15:00-05:00",
+      "author": "Lillian Eden | Department of Biology",
+      "source": "MIT News - AI",
+      "category": "tech",
+      "tags": [
+        "MIT News - AI",
+        "人工智能",
+        "tech",
+        "AI",
+        "and",
+        "biology",
+        "extreme"
+      ],
+      "fetched_at": "2026-01-30T22:35:29.422389",
+      "short_summary": "Assistant Professor Yunha Hwang utilizes microbial genomes to examine the language of biology. Her appointment reflects MIT’s commitment to exploring 。",
+      "funny_title": "✨ 3 Questions: Using computation to study the world’s best single-celled chemists 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.699397"
+    },
+    {
+      "title": "6 Best Beard Trimmers (2026): Full Beards, Hair, Stubble",
+      "link": "https://www.wired.com/gallery/best-beard-trimmers/",
+      "summary": "WIRED has been testing beard trimmers for six years. Our favorite is compact, reliable, ridiculously adjustable, and offers a five-year warranty.",
+      "content": "WIRED has been testing beard trimmers for six years. Our favorite is compact, reliable, ridiculously adjustable, and offers a five-year warranty.",
+      "published": "2026-01-30T14:30:00+00:00",
+      "updated": "2026-01-30T14:30:00+00:00",
+      "author": "Matthew Korfhage",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "beard",
+        "trimmers",
+        "wired"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.358002",
+      "short_summary": "WIRED has been testing beard trimmers for six years. Our favorite is compact, reliable, ridiculously adjustable, and offers a five-year warranty.。",
+      "funny_title": "🚀 6 Best Beard Trimmers (2026): Full Beards, Hair, Stubble 来了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.699489"
+    },
+    {
+      "title": "NAD+ Supplement 101: Possible Benefits and Precautions Explained (2026)",
+      "link": "https://www.wired.com/story/nad-supplement-101/",
+      "summary": "What is NAD+? Here’s how it works in your body, why it matters, and if supplementation is worth the hype.",
+      "content": "What is NAD+? Here’s how it works in your body, why it matters, and if supplementation is worth the hype.",
+      "published": "2026-01-30T12:00:00+00:00",
+      "updated": "2026-01-30T12:00:00+00:00",
+      "author": "Boutayna Chokrane",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "nad",
+        "and",
+        "works"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.359168",
+      "short_summary": "What is NAD+? Here’s how it works in your body, why it matters, and if supplementation is worth the hype.。",
+      "funny_title": "🚀 NAD+ Supplement 101: Possible Benefits and Precautions Explained (2026) 速看！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.699576"
+    },
+    {
+      "title": "HigherDose Red Light Hat Review: Scalp Savior (2026)",
+      "link": "https://www.wired.com/review/higherdose-red-light-hat/",
+      "summary": "Turns out, red light isn’t just for your face. HigherDose’s Red Light Hat has given me the best hair and scalp I’ve had in years.",
+      "content": "Turns out, red light isn’t just for your face. HigherDose’s Red Light Hat has given me the best hair and scalp I’ve had in years.",
+      "published": "2026-01-30T11:31:00+00:00",
+      "updated": "2026-01-30T11:31:00+00:00",
+      "author": "Nena Farrell",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "red",
+        "light",
+        "higherdose"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.359358",
+      "short_summary": "Turns out, red light isn’t just for your face. HigherDose’s Red Light Hat has given me the best hair and scalp I’ve had in years.。",
+      "funny_title": "💻 HigherDose Red Light Hat Review: Scalp Savior (2026) 惊了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.699673"
+    },
+    {
+      "title": "Silicon Valley Tech Workers Are Campaigning to Get ICE Out of US Cities",
+      "link": "https://www.wired.com/story/the-big-interview-podcast-ice-out-tech/",
+      "summary": "Even as Big Tech CEOs curry favor with President Trump, Silicon Valley employees are calling on their bosses to use their influence to help stop his immigration policies.",
+      "content": "Even as Big Tech CEOs curry favor with President Trump, Silicon Valley employees are calling on their bosses to use their influence to help stop his immigration policies.",
+      "published": "2026-01-30T11:30:00+00:00",
+      "updated": "2026-01-30T11:30:00+00:00",
+      "author": "Katie Drummond",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "silicon",
+        "valley",
+        "tech"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.359545",
+      "short_summary": "Even as Big Tech CEOs curry favor with President Trump, Silicon Valley employees are calling on their bosses to use their influence to help stop his i。",
+      "funny_title": "✨ Silicon Valley Tech Workers Are Campaigning to Get ICE Out of US Cities 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.699771"
+    },
+    {
+      "title": "We Found Two Theaters With Sold-Out ‘Melania’ Opening Day Screenings",
+      "link": "https://www.wired.com/story/we-found-2-theaters-with-sold-out-melania-opening-day-screenings/",
+      "summary": "A WIRED analysis of nearly 1,400 Friday showtimes of Melania found only two with no tickets available. Both are before 3 pm.",
+      "content": "A WIRED analysis of nearly 1,400 Friday showtimes of Melania found only two with no tickets available. Both are before 3 pm.",
+      "published": "2026-01-29T23:27:49+00:00",
+      "updated": "2026-01-29T23:27:49+00:00",
+      "author": "Maddy Varner",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "found",
+        "two",
+        "melania"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.360036",
+      "short_summary": "A WIRED analysis of nearly 1,400 Friday showtimes of Melania found only two with no tickets available. Both are before 3 pm.。",
+      "funny_title": "💡 We Found Two Theaters With Sold-Out ‘Melania’ Opening Day Screenings 更新啦！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "📱 科技场景/办公环境图",
+      "processed_at": "2026-01-30T22:35:52.699865"
+    },
+    {
+      "title": "AI-Generated Anti-ICE Videos Are Getting the Fanfic Treatment",
+      "link": "https://www.wired.com/story/anti-ice-videos-are-getting-the-ai-fanfic-treatment-online/",
+      "summary": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew of misinformation?",
+      "content": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew of misinformation?",
+      "published": "2026-01-29T19:07:14+00:00",
+      "updated": "2026-01-29T19:07:14+00:00",
+      "author": "Jason Parham",
+      "source": "Wired",
+      "category": "tech",
+      "tags": [
+        "AI",
+        "tech",
+        "Wired",
+        "人工智能",
+        "ai",
+        "generated",
+        "ice"
+      ],
+      "fetched_at": "2026-01-30T22:35:31.360510",
+      "short_summary": "Across Instagram and Facebook, AI-generated videos show people of color putting ICE agents in their place. Are they cathartic or just adding to a stew。",
+      "funny_title": "⚡ AI-Generated Anti-ICE Videos Are Getting the Fanfic Treatment 来了！",
+      "topics": [
+        "AI/机器学习"
+      ],
+      "image_suggestion": "🤖 机器人/AI芯片/神经网络图",
+      "processed_at": "2026-01-30T22:35:52.699960"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日AI科技早报</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            color: #e8e8e8;
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        /* 头部样式 */
+        header {
+            text-align: center;
+            padding: 40px 30px;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .header-subtitle {
+            color: #a0a0a0;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+        }
+        
+        /* 统计卡片 */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 25px 0;
+        }
+        .stat-item {
+            text-align: center;
+            padding: 15px 25px;
+            background: rgba(102, 126, 234, 0.15);
+            border-radius: 12px;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-label {
+            color: #888;
+            font-size: 0.8rem;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* 按钮组 */
+        .header-actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 12px 24px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: white;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+        .btn-success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            box-shadow: 0 4px 15px rgba(17, 153, 142, 0.4);
+        }
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(17, 153, 142, 0.6);
+        }
+        
+        /* 早报列表 */
+        .report-list { margin: 30px 0; }
+        .report-list h2 {
+            font-size: 1.3rem;
+            color: #fff;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 3px solid #667eea;
+        }
+        .report-item {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        .report-item:hover {
+            background: rgba(255,255,255,0.12);
+            transform: translateX(5px);
+            border-color: rgba(102, 126, 234, 0.5);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+        .report-date {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .report-date::before {
+            content: '📅';
+        }
+        .report-title {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+        }
+        
+        /* 返回按钮 */
+        .back-btn {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+            color: #fff;
+            padding: 10px 20px;
+            border: 1px solid rgba(102, 126, 234, 0.5);
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5));
+        }
+        
+        /* 模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .modal.active { display: flex; }
+        .modal-content {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 20px;
+            padding: 30px;
+            width: 90%;
+            max-width: 480px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            animation: slideUp 0.3s ease;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 1.8rem;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1;
+        }
+        .modal-close:hover { color: #fff; }
+        
+        /* 表单样式 */
+        .form-group { margin-bottom: 18px; }
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: #a0a0a0;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        .form-input, .form-select {
+            width: 100%;
+            padding: 12px 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
+            color: #e8e8e8;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        .form-input:focus, .form-select:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+        .form-select {
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23a0a0a0' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            padding-right: 40px;
+        }
+        
+        .section-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        /* 进度条 */
+        .progress-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            margin: 25px 0;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .progress-bar {
+            height: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+            animation: gradientMove 2s ease infinite;
+            background-size: 200% 100%;
+        }
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .progress-text {
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+        .progress-logs {
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.85rem;
+            color: #b0b0b0;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+        }
+        .progress-logs p {
+            margin: 6px 0;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .progress-logs p:last-child { border-bottom: none; }
+        
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        th {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+            font-weight: 600;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: rgba(255,255,255,0.05); }
+        
+        /* Markdown内容样式 */
+        .report-content {
+            line-height: 1.8;
+            font-size: 0.95rem;
+            color: #d0d0d0;
+        }
+        .report-content h2 {
+            font-size: 1.5rem;
+            margin: 30px 0 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(102, 126, 234, 0.5);
+            color: #fff;
+        }
+        .report-content h3 {
+            font-size: 1.2rem;
+            margin: 25px 0 15px;
+            color: #e0e0e0;
+        }
+        .report-content h4 {
+            font-size: 1.1rem;
+            margin: 20px 0 12px;
+            color: #c0c0c0;
+        }
+        .report-content p { margin: 15px 0; }
+        .report-content blockquote {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-style: italic;
+        }
+        .report-content ul, .report-content ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        .report-content li {
+            margin: 8px 0;
+        }
+        .report-content a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s;
+        }
+        .report-content a:hover {
+            border-bottom-color: #667eea;
+        }
+        .report-content code {
+            background: rgba(102, 126, 234, 0.2);
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #f093fb;
+        }
+        .report-content pre {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        .report-content hr {
+            border: none;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin: 30px 0;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .stats { gap: 15px; }
+            .stat-item { padding: 10px 15px; }
+            .stat-value { font-size: 1.4rem; }
+            .header-actions { gap: 10px; }
+            .btn { padding: 10px 18px; font-size: 0.85rem; }
+            h1 { font-size: 1.6rem; }
+            .report-item { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 每日AI科技早报</h1>
+            <p>每日精选AI前沿 + 科技创投资讯</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="total-reports">-</div>
+                    <div class="stat-label">已发布早报</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="total-articles">-</div>
+                    <div class="stat-label">累计文章</div>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-primary" onclick="startGenerate()">🚀 手动生成</button>
+                <button class="btn btn-secondary" onclick="openAIConfig()">🤖 AI配置</button>
+                <button class="btn btn-secondary" onclick="openEmailConfig()">📧 邮件配置</button>
+            </div>
+        </header>
+        
+        <div class="progress-section" id="progress-section" style="display:none;">
+            <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+            <div class="progress-text" id="progress-text">准备中...</div>
+            <div class="progress-logs" id="progress-logs"></div>
+        </div>
+        
+        <div class="report-list" id="report-list">
+            <h2 style="margin-bottom: 20px;">📋 早报列表</h2>
+            <div id="reports-container"></div>
+        </div>
+    </div>
+    
+    <!-- AI配置模态框 -->
+    <div class="modal" id="ai-config-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">🤖 AI模型配置</h2>
+                <button class="modal-close" onclick="closeAIConfig()">×</button>
+            </div>
+            <div class="section-title">AI摘要配置</div>
+            <div class="form-group">
+                <label class="form-label">提供商</label>
+                <select class="form-select" id="ai-provider" onchange="updateBaseURL()">
+                    <option value="openai">OpenAI</option>
+                    <option value="openrouter">OpenRouter</option>
+                    <option value="deepseek">DeepSeek</option>
+                    <option value="minimax">Minimax</option>
+                    <option value="siliconflow">硅基流动</option>
+                    <option value="qwen">通义千问</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">API Base URL</label>
+                <input type="text" class="form-input" id="ai-base-url" placeholder="API地址">
+            </div>
+            <div class="form-group">
+                <label class="form-label">模型名称</label>
+                <input type="text" class="form-input" id="ai-model" placeholder="模型名">
+            </div>
+            <div class="form-group">
+                <label class="form-label">API Key</label>
+                <input type="password" class="form-input" id="ai-api-key" placeholder="API Key">
+            </div>
+            <!-- Max Tokens和Temperature已隐藏，在配置文件中修改 -->
+            <button class="btn btn-primary" style="width:100%;margin-bottom:10px;" onclick="testAI()">🔗 测试连接</button>
+            <button class="btn btn-success" style="width:100%;margin-bottom:10px;" onclick="saveAIConfig()">💾 保存配置</button>
+            <button class="btn btn-secondary" style="width:100%;" onclick="sendTestEmail()">📧 发送测试邮件</button>
+        </div>
+    </div>
+    
+    <!-- 邮件配置模态框 -->
+    <div class="modal" id="email-config-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">📧 邮件配置</h2>
+                <button class="modal-close" onclick="closeEmailConfig()">×</button>
+            </div>
+            <div class="form-group">
+                <label class="form-label">SMTP服务器</label>
+                <input type="text" class="form-input" id="email-host" placeholder="smtp.163.com">
+            </div>
+            <div class="form-group">
+                <label class="form-label">SMTP端口</label>
+                <input type="number" class="form-input" id="email-port" value="465">
+            </div>
+            <div class="form-group">
+                <label class="form-label">邮箱账号</label>
+                <input type="text" class="form-input" id="email-username" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+                <label class="form-label">授权码</label>
+                <input type="password" class="form-input" id="email-password" placeholder="授权码">
+            </div>
+            <div class="form-group">
+                <label class="form-label">收件人（多个用逗号分隔）</label>
+                <input type="text" class="form-input" id="email-to" placeholder="a@b.com, c@d.com">
+            </div>
+            <button class="btn btn-success" style="width:100%;" onclick="saveEmailConfig()">💾 保存配置</button>
+        </div>
+    </div>
+
+    <script src="/marked.min.js"></script>
+    <script>
+        var reports = [];
+        var generateTimer = null;
+        var providerBaseUrls = {
+            'openai': 'https://api.openai.com/v1',
+            'openrouter': 'https://openrouter.ai/api/v1',
+            'deepseek': 'https://api.deepseek.com/v1',
+            'minimax': 'https://api.minimax.chat/v1',
+            'siliconflow': 'https://api.siliconflow.cn/v1',
+            'qwen': 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+        };
+        
+        function init() {
+            console.log('初始化...');
+            loadReports();
+            loadStats();
+            loadAIConfig();
+            loadEmailConfig();
+        }
+        
+        function updateBaseURL() {
+            var provider = document.getElementById('ai-provider').value;
+            var baseUrlInput = document.getElementById('ai-base-url');
+            // 只有当base_url为空时才自动填充
+            if (!baseUrlInput.value && providerBaseUrls[provider]) {
+                baseUrlInput.value = providerBaseUrls[provider];
+            }
+        }
+        
+        function loadReports() {
+            console.log('加载早报列表...');
+            fetch('/api/reports')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var container = document.getElementById('reports-container');
+                    container.innerHTML = '';
+                    if (!data || data.length === 0) {
+                        container.innerHTML = '<p style="color:#888;">暂无早报数据</p>';
+                        return;
+                    }
+                    data.forEach(function(report) {
+                        var item = document.createElement('div');
+                        item.className = 'report-item';
+                        item.onclick = function() { showReport(report.filename); };
+                        item.innerHTML = '<div class="report-date">📅 ' + report.date + '</div><div class="report-title">' + (report.title || 'AI科技早报') + '</div>';
+                        container.appendChild(item);
+                    });
+                })
+                .catch(function(e) { console.error('加载失败:', e); });
+        }
+        
+        function loadStats() {
+            console.log('加载统计...');
+            fetch('/api/stats')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    document.getElementById('total-reports').textContent = data.total_reports || '-';
+                    document.getElementById('total-articles').textContent = data.total_articles || '-';
+                })
+                .catch(function(e) { console.error('统计加载失败:', e); });
+        }
+        
+        function loadAIConfig() {
+            console.log('加载AI配置...');
+            fetch('/api/ai-config')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    document.getElementById('ai-provider').value = data.provider || 'openai';
+                    document.getElementById('ai-model').value = data.model || '';
+                    document.getElementById('ai-base-url').value = data.base_url || providerBaseUrls[data.provider] || '';
+                    document.getElementById('ai-api-key').value = data.api_key || '';
+                })
+                .catch(function(e) { console.error('AI配置加载失败:', e); });
+        }
+        
+        function loadEmailConfig() {
+            console.log('加载邮件配置...');
+            fetch('/api/email-config')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    document.getElementById('email-host').value = data.smtp_host || '';
+                    document.getElementById('email-port').value = data.smtp_port || 465;
+                    document.getElementById('email-username').value = data.username || '';
+                    document.getElementById('email-password').value = data.password || '';
+                    document.getElementById('email-to').value = (data.to_addresses || []).join(', ');
+                })
+                .catch(function(e) { console.error('邮件配置加载失败:', e); });
+        }
+        
+        function openAIConfig() {
+            console.log('打开AI配置...');
+            document.getElementById('ai-config-modal').classList.add('active');
+        }
+        
+        function closeAIConfig() {
+            document.getElementById('ai-config-modal').classList.remove('active');
+        }
+        
+        function openEmailConfig() {
+            console.log('打开邮件配置...');
+            document.getElementById('email-config-modal').classList.add('active');
+        }
+        
+        function closeEmailConfig() {
+            document.getElementById('email-config-modal').classList.remove('active');
+        }
+        
+        function testAI() {
+            console.log('测试AI连接...');
+            var config = {
+                provider: document.getElementById('ai-provider').value,
+                model: document.getElementById('ai-model').value,
+                base_url: document.getElementById('ai-base-url').value,
+                api_key: document.getElementById('ai-api-key').value
+            };
+            fetch('/api/ai-test', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(config) })
+                .then(function(r) { return r.json(); })
+                .then(function(data) { alert(data.message); })
+                .catch(function(e) { alert('测试失败'); });
+        }
+        
+        function saveAIConfig() {
+            console.log('保存AI配置...');
+            var config = {
+                provider: document.getElementById('ai-provider').value,
+                model: document.getElementById('ai-model').value,
+                base_url: document.getElementById('ai-base-url').value,
+                api_key: document.getElementById('ai-api-key').value
+            };
+            fetch('/api/ai-config', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(config) })
+                .then(function(r) { return r.json(); })
+                .then(function(data) { alert(data.message); })
+                .catch(function(e) { alert('保存失败'); });
+        }
+        
+        function saveEmailConfig() {
+            console.log('保存邮件配置...');
+            var toAddrs = document.getElementById('email-to').value.split(',').map(function(s) { return s.trim(); }).filter(function(s) { return s; });
+            var config = {
+                smtp_host: document.getElementById('email-host').value,
+                smtp_port: parseInt(document.getElementById('email-port').value),
+                username: document.getElementById('email-username').value,
+                password: document.getElementById('email-password').value,
+                to_addresses: toAddrs
+            };
+            fetch('/api/email-config', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(config) })
+                .then(function(r) { return r.json(); })
+                .then(function(data) { alert(data.message); })
+                .catch(function(e) { alert('保存失败'); });
+        }
+        
+        function sendTestEmail() {
+            console.log('发送测试邮件...');
+            fetch('/api/send-email', { method: 'POST' })
+                .then(function(r) { return r.json(); })
+                .then(function(data) { alert(data.message); })
+                .catch(function(e) { alert('发送失败: ' + e); });
+        }
+        
+        function startGenerate() {
+            console.log('开始生成...');
+            
+            // 先检测AI配置
+            var aiModel = document.getElementById('ai-model').value.trim();
+            var aiKey = document.getElementById('ai-api-key').value.trim();
+            if (!aiModel || !aiKey) {
+                alert('请先配置AI模型！在右下角点击"🤖 AI配置"进行配置');
+                openAIConfig();
+                return;
+            }
+            
+            document.getElementById('progress-section').style.display = 'block';
+            document.getElementById('progress-logs').innerHTML = '<p>🚀 开始生成早报...</p>';
+            document.getElementById('progress-fill').style.width = '10%';
+            document.getElementById('progress-text').textContent = '进度: 10%';
+            
+            fetch('/api/generate', { method: 'POST' })
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    if (data.success) {
+                        generateTimer = setInterval(checkGenerateStatus, 1000);
+                    } else {
+                        document.getElementById('progress-logs').innerHTML += '<p style="color:#ff6b6b;">❌ ' + data.message + '</p>';
+                    }
+                })
+                .catch(function(e) {
+                    document.getElementById('progress-logs').innerHTML += '<p style="color:#ff6b6b;">❌ 启动失败</p>';
+                });
+        }
+        
+        function checkGenerateStatus() {
+            fetch('/api/generate/status')
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var logs = document.getElementById('progress-logs');
+                    logs.innerHTML = data.logs.split('\n').map(function(l) { return l ? '<p>' + l + '</p>' : ''; }).join('');
+                    logs.scrollTop = logs.scrollHeight;
+                    
+                    var logsLower = data.logs.toLowerCase();
+                    var progress = 10;
+                    if (logsLower.includes('完成') || logsLower.includes('success')) progress = 100;
+                    else if (logsLower.includes('邮件') || logsLower.includes('email')) progress = 90;
+                    else if (logsLower.includes('早报') || logsLower.includes('生成')) progress = 70;
+                    else if (logsLower.includes('处理') || logsLower.includes('process')) progress = 50;
+                    else if (logsLower.includes('摘要') || logsLower.includes('summar')) progress = 30;
+                    else if (logsLower.includes('采集') || logsLower.includes('fetch')) progress = 10;
+                    
+                    document.getElementById('progress-fill').style.width = progress + '%';
+                    document.getElementById('progress-text').textContent = '进度: ' + progress + '%';
+                    
+                    if (progress >= 100) {
+                        clearInterval(generateTimer);
+                        document.getElementById('progress-text').textContent = '✅ 生成完成！';
+                        loadReports();
+                        loadStats();
+                        // 5秒后自动折叠
+                        setTimeout(function() {
+                            document.getElementById('progress-section').style.display = 'none';
+                        }, 5000);
+                    }
+                })
+                .catch(function(e) { console.error(e); });
+        }
+        
+        function showReport(filename) {
+            console.log('显示早报:', filename);
+            fetch('/data/published/' + filename)
+                .then(function(r) { return r.text(); })
+                .then(function(content) {
+                    console.log('原始内容长度:', content.length);
+                    var container = document.getElementById('reports-container');
+                    // 清理内容，移除YAML头部
+                    var contentClean = content.replace(/^---[\s\S]*?---/, '');
+                    console.log('清理后长度:', contentClean.length);
+                    
+                    // 使用marked解析
+                    if (typeof marked === 'undefined') {
+                        console.error('marked.js未加载!');
+                        container.innerHTML = '<p style="color:red;">错误: marked.js未加载</p>';
+                        return;
+                    }
+                    
+                    var htmlContent = marked.parse(contentClean, {
+                        breaks: true,
+                        gfm: true
+                    });
+                    console.log('渲染后长度:', htmlContent.length);
+                    
+                    // 替换所有链接为新标签打开
+                    htmlContent = htmlContent.replace(/<a href="/g, '<a target="_blank" href="');
+                    
+                    container.innerHTML = '<button class="back-btn" onclick="loadReports();">← 返回列表</button>';
+                    container.innerHTML += '<div class="report-content" style="background:rgba(255,255,255,0.03);border-radius:12px;padding:20px;">' + htmlContent + '</div>';
+                })
+                .catch(function(e) {
+                    console.error('加载失败:', e);
+                    document.getElementById('reports-container').innerHTML = '<p style="color:red;">加载失败: ' + e.message + '</p>';
+                });
+        }
+        
+        init();
+    </script>
+</body>
+</html>

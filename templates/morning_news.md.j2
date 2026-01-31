@@ -1,0 +1,57 @@
+---
+title: "{{ title }}"
+date: {{ date }}
+slug: morning-news-{{ date_str }}
+categories:
+  - 科技资讯
+  - AI前沿
+tags:
+  - 每日简报
+  - 科技
+  - AI
+---
+
+# {{ title }}
+
+> {{ subtitle }} · {{ date_formatted }}
+
+---
+
+## 今日概览
+
+| 统计项 | 数量 |
+|--------|------|
+| 资讯来源 | {{ sources|length }} 个 |
+| 文章总数 | {{ articles|length }} 篇 |
+
+{% if ai_articles %}
+## AI前沿
+
+{% for article in ai_articles[:5] %}
+### {{ article.title }}
+
+{{ article.summary }}
+
+[阅读原文]({{ article.link }})
+
+---
+{% endfor %}
+{% endif %}
+
+{% if tech_articles %}
+## 科技创投
+
+{% for article in tech_articles[:5] %}
+### {{ article.title }}
+
+{{ article.summary }}
+
+[阅读原文]({{ article.link }})
+
+---
+{% endfor %}
+{% endif %}
+
+---
+
+> {{ quote }}
