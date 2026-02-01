@@ -64,13 +64,28 @@ class PreviewHandler(http.server.SimpleHTTPRequestHandler):
             self.send_report(filename)
             return
 
-        # 静态文件
+        # 静态文件服务
         if path == '/' or path == '/index.html':
             path = '/web_preview/index.html'
-
-        # 修改基础路径
+        
+        # 获取项目根目录
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        file_path = os.path.join(base_dir, path.lstrip('/'))
+        
+        # 确定文件路径
+        if path.startswith('/web_preview/'):
+            # web_preview目录下的文件
+            file_path = os.path.join(base_dir, path.lstrip('/'))
+        elif path.startswith('/data/published/'):
+            # 早报数据文件
+            file_path = os.path.join(base_dir, path.lstrip('/'))
+        elif path.startswith('/marked.min.js'):
+            # marked.js库文件
+            file_path = os.path.join(base_dir, 'web_preview', 'marked.min.js')
+        elif path.startswith('/css/') or path.startswith('/js/') or path.startswith('/images/'):
+            # 其他静态文件
+            file_path = os.path.join(base_dir, 'web_preview', path)
+        else:
+            file_path = os.path.join(base_dir, path.lstrip('/'))
 
         if os.path.exists(file_path) and os.path.isfile(file_path):
             self.send_file(file_path)

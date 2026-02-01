@@ -11,19 +11,6 @@ tags:
   - AI
 ---
 
-# {{ title }}
-
-> {{ subtitle }} · {{ date_formatted }}
-
----
-
-## 今日概览
-
-| 统计项 | 数量 |
-|--------|------|
-| 资讯来源 | {{ sources|length }} 个 |
-| 文章总数 | {{ articles|length }} 篇 |
-
 {% if ai_articles %}
 ## AI前沿
 
@@ -55,3 +42,5 @@ tags:
 ---
 
 > {{ quote }}
+>
+> 由 [{{ blog_name }}]({{ blog_url }}) 每日自动推送

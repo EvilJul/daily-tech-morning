@@ -74,6 +74,10 @@ class EmailSender:
             # 提取正文内容
             body_content = '\n'.join(lines[content_start:])
             
+            # 预处理：将Markdown链接转换为HTML链接
+            import re
+            body_content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2" target="_blank">\1</a>', body_content)
+            
             # 解析Markdown为HTML
             md = markdown.Markdown(
                 extensions=[
