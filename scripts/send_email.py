@@ -291,7 +291,7 @@ class EmailSender:
         
         <div class="footnote">
             <p>🤖 由每日AI科技早报自动生成</p>
-            <p>📧 每天早上9点准时推送</p>
+            <p>📧 每天早上7点准时推送</p>
         </div>
     </div>
 </body>
