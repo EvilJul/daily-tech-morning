@@ -42,14 +42,27 @@ class MorningNewsGenerator:
     
     def load_raw_data(self, data_file=None):
         """加载原始数据"""
-        if not data_file:
-            fetcher = RSSFetcher()
-            raw_data = fetcher.get_latest_raw()
-        else:
+        if data_file:
+            # 使用指定的文件
             with open(data_file, 'r', encoding='utf-8') as f:
-                raw_data = json.load(f)
-        
-        return raw_data
+                return json.load(f)
+        else:
+            # 检查是否有今天的原始数据
+            from datetime import datetime
+            today_str = datetime.now().strftime('%Y%m%d')
+            raw_data_dir = self.config['storage']['raw_data_dir']
+            today_file = os.path.join(raw_data_dir, f'raw_{today_str}_000000.json')
+            
+            if os.path.exists(today_file):
+                # 有今天的数据，直接使用
+                with open(today_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            else:
+                # 没有今天的数据，先采集再使用最新的
+                print("📥 未找到今日数据，正在采集...")
+                fetcher = RSSFetcher()
+                raw_data = fetcher.get_latest_raw()
+                return raw_data
     
     def categorize_articles(self, articles):
         """文章分类"""
