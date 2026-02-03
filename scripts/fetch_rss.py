@@ -13,6 +13,7 @@ import sys
 from datetime import datetime
 from dateutil import parser as date_parser
 from urllib.parse import urlparse
+from pathlib import Path
 import time
 import urllib3
 import ssl
@@ -31,8 +32,12 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 class RSSFetcher:
     """RSS采集器"""
     
-    def __init__(self, config_path='config.yaml'):
+    def __init__(self, config_path=None):
         """初始化加载配置"""
+        if config_path is None:
+            script_dir = Path(__file__).parent.parent
+            config_path = script_dir / "config.yaml"
+        
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = yaml.safe_load(f)
         

@@ -21,8 +21,12 @@ import yaml
 class DataArchiver:
     """数据归档器"""
     
-    def __init__(self, config_path='config.yaml'):
+    def __init__(self, config_path=None):
         """初始化"""
+        if config_path is None:
+            script_dir = Path(__file__).parent.parent
+            config_path = script_dir / "config.yaml"
+        
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = yaml.safe_load(f)
         

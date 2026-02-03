@@ -8,6 +8,7 @@ import os
 import sys
 import json
 from datetime import datetime
+from pathlib import Path
 
 # 添加项目根目录到路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -21,8 +22,12 @@ from extract_keywords import KeywordExtractor
 class ContentProcessor:
     """内容处理器"""
     
-    def __init__(self, config_path='config.yaml'):
+    def __init__(self, config_path=None):
         """初始化"""
+        if config_path is None:
+            script_dir = Path(__file__).parent.parent
+            config_path = script_dir / "config.yaml"
+        
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = yaml.safe_load(f)
         
