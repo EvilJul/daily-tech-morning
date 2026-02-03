@@ -14,7 +14,7 @@ tags:
 {% if ai_articles %}
 ## AI前沿
 
-{% for article in ai_articles[:5] %}
+{% for article in ai_articles %}
 ### {{ article.title }}
 
 {{ article.summary }}
@@ -28,7 +28,21 @@ tags:
 {% if tech_articles %}
 ## 科技创投
 
-{% for article in tech_articles[:5] %}
+{% for article in tech_articles %}
+### {{ article.title }}
+
+{{ article.summary }}
+
+[阅读原文]({{ article.link }})
+
+---
+{% endfor %}
+{% endif %}
+
+{% if other_articles %}
+## 其他资讯
+
+{% for article in other_articles %}
 ### {{ article.title }}
 
 {{ article.summary }}

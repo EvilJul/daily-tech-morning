@@ -20,8 +20,13 @@ from fetch_rss import RSSFetcher
 class MorningNewsGenerator:
     """早报生成器"""
     
-    def __init__(self, config_path='config.yaml'):
+    def __init__(self, config_path=None):
         """初始化"""
+        if config_path is None:
+            # 使用脚本同目录下的config.yaml
+            script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            config_path = os.path.join(script_dir, 'config.yaml')
+        
         with open(config_path, 'r', encoding='utf-8') as f:
             self.config = yaml.safe_load(f)
         
@@ -39,6 +44,47 @@ class MorningNewsGenerator:
             loader=FileSystemLoader(self.template_dir),
             autoescape=False
         )
+        
+        # 中英文比例配置
+        lang_config = self.config.get('morning_news', {}).get('language_ratio', {})
+        self.lang_ratio_enabled = lang_config.get('enabled', False)
+        self.english_ratio = lang_config.get('english', 7) / 10
+        self.chinese_ratio = lang_config.get('chinese', 3) / 10
+    
+    def filter_by_language_ratio(self, articles):
+        """按中英文比例筛选文章"""
+        if not self.lang_ratio_enabled:
+            return articles
+        
+        # 区分中英文文章
+        chinese_sources = ['36氪']  # 中文源
+        chinese_articles = []
+        english_articles = []
+        
+        for article in articles:
+            source = article.get('source', '')
+            if source in chinese_sources:
+                chinese_articles.append(article)
+            else:
+                english_articles.append(article)
+        
+        # 计算目标数量 (共10篇)
+        total = 10
+        target_english = int(total * self.english_ratio)
+        target_chinese = total - target_english
+        
+        # 选择文章
+        selected = []
+        
+        # 英文文章按星级排序取
+        english_articles.sort(key=lambda x: x.get('published', ''), reverse=True)
+        selected.extend(english_articles[:target_english])
+        
+        # 中文文章按时间排序取
+        chinese_articles.sort(key=lambda x: x.get('published', ''), reverse=True)
+        selected.extend(chinese_articles[:target_chinese])
+        
+        return selected
     
     def load_raw_data(self, data_file=None):
         """加载原始数据"""
@@ -47,22 +93,11 @@ class MorningNewsGenerator:
             with open(data_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
         else:
-            # 检查是否有今天的原始数据
-            from datetime import datetime
-            today_str = datetime.now().strftime('%Y%m%d')
-            raw_data_dir = self.config['storage']['raw_data_dir']
-            today_file = os.path.join(raw_data_dir, f'raw_{today_str}_000000.json')
-            
-            if os.path.exists(today_file):
-                # 有今天的数据，直接使用
-                with open(today_file, 'r', encoding='utf-8') as f:
-                    return json.load(f)
-            else:
-                # 没有今天的数据，先采集再使用最新的
-                print("📥 未找到今日数据，正在采集...")
-                fetcher = RSSFetcher()
-                raw_data = fetcher.get_latest_raw()
-                return raw_data
+            # 每次都重新采集最新的RSS数据
+            print("📥 正在采集最新RSS数据...")
+            fetcher = RSSFetcher()
+            raw_data = fetcher.fetch_all()
+            return {'sources': raw_data}
     
     def categorize_articles(self, articles):
         """文章分类"""
@@ -104,16 +139,22 @@ class MorningNewsGenerator:
                 seen_links.add(link)
                 unique_articles.append(article)
         
-        categorized = self.categorize_articles(unique_articles)
+        # 按中英文比例筛选
+        if self.lang_ratio_enabled:
+            selected_articles = self.filter_by_language_ratio(unique_articles)
+        else:
+            selected_articles = unique_articles[:10]
+        
+        categorized = self.categorize_articles(selected_articles)
         
         categories = list(set(
             a.get('category', '未分类') 
-            for a in unique_articles
+            for a in selected_articles
         ))
         
         sources = list(set(
             a.get('source', '') 
-            for a in unique_articles
+            for a in selected_articles
         ))
         
         today = datetime.now()
@@ -129,12 +170,13 @@ class MorningNewsGenerator:
             'date': today.isoformat(),
             'date_str': date_str,
             'date_formatted': today.strftime('%Y年%m月%d日 %A'),
-            'articles': unique_articles[:10],
-            'ai_articles': categorized['ai'][:5],
-            'tech_articles': categorized['tech'][:5],
+            'articles': selected_articles,
+            'ai_articles': categorized['ai'],
+            'tech_articles': categorized['tech'],
+            'other_articles': categorized['other'],
             'categories': categories,
             'sources': sources,
-            'description': f"今日精选{len(unique_articles)}篇科技资讯，涵盖AI前沿、创投动态等。",
+            'description': f"今日精选{len(selected_articles)}篇科技资讯，涵盖AI前沿、创投动态等。",
             'quote': "在AI时代，最好的投资是学习本身。",
             'blog_name': blog_name,
             'blog_url': blog_url,
@@ -224,8 +266,9 @@ class MorningNewsGenerator:
             'date_str': date_str,
             'date_formatted': today.strftime('%Y年%m月%d日 %A'),
             'articles': articles[:10],
-            'ai_articles': categorized['ai'][:5],
-            'tech_articles': categorized['tech'][:5],
+            'ai_articles': categorized['ai'],
+            'tech_articles': categorized['tech'],
+            'other_articles': categorized['other'],
             'categories': list(set(a.get('category', '未分类') for a in articles)),
             'sources': list(set(a.get('source', '') for a in articles)),
             'description': f"今日精选{len(articles)}篇科技资讯，涵盖AI前沿、创投动态等。",
